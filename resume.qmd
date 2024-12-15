@@ -1,86 +1,64 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Braedan Baird's CV
 ---
-# Isaac Newton
+# Braedan Baird
 Physicist, Mathematician, Cambridge professor.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="bbaird77@byui.edu">bbaird77@byui.edu</a>
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+Studying at BYU-I.
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+* Experienced in MS Office Suite
+* Familiar with both PC & Mac Formats
+* Experienced with the Adobe Creative Suite
+* Experienced with RStudio and VS Code Programs
+* Certified with the SolidWorks CAD Program
+* Experienced with Lathes, Drill Presses & Welding
+* Proficient with General Mechanical & Hand Tools
 
 
-### Research interests
+### Interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+Writing, Math, Science, Computer Software, and Computer Hardware.
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+`Brigham Young University Idaho`
+Attending: 2018, 2021 – Current, Rexburg, ID
+`Conestoga Valley Senior High School`	                  
+Graduated: 2017, Lancaster, PA
 
 
 ## Occupation
 
-`1600`
-__Royal Mint__, London
+`Crew Member, McDonald’s, Rexburg, ID`				     
+Oct 2021 – Dec 2022, Sep 2023 - Current
+* Maintained clean, sanitized, and well-organized food preparation zones and prepared cooking supplies, ingredients, and workstations during opening and closing procedures.
+* Promoted general customer loyalty and provided customer service.
+* Processed payments and counted change to complete transactions.
 
-- Warden
-- Minted coins
+`Delivery Associate, Amazon, Mount Joy, PA`
+January 2023 – Sep 2023
+* Lifted and moved packages weighing up to 50 lbs. and efficiently loaded and safely drove delivery vehicle.
+* Navigated surrounding areas and delivered packages safely and efficiently.
+* Maintained excellent attendance record, consistently arriving at work on time.
+* Met and exceeded assigned production standards for quality and quotas.
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+`Teacher Assistant, Brigham Young University Idaho, Rexburg, ID`
+Oct 2021 – May 2022
+* Assisted with grading assignments and promptly returning them to students.
+* Assisted students with concepts and ideas necessary for their growth and overall success in the course.
+* Provided additional help and assistance to individual students to overcome difficulties in comprehension and mastery.
+
 
 
 
