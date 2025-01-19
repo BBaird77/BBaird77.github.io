@@ -1060,12 +1060,12 @@ memory usage: 9.8+ KB</code></pre>
   </div>
 </div>
 </div>
-<div id="cell-21" class="cell" data-outputid="4f3d0c60-7bdd-4eb4-fab0-a3999d282a4a" data-execution_count="28">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>Titanic[<span class="st">"NameGroup"</span>] <span class="op">=</span> Titanic[<span class="st">"Name"</span>].<span class="bu">str</span>.get(<span class="dv">0</span>)</span>
+<div id="cell-21" class="cell" data-outputid="e5bc0dd2-ee59-4842-e560-c5403c3569c9" data-execution_count="32">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>Titanic[<span class="st">"NameGroup"</span>] <span class="op">=</span> Titanic[<span class="st">"Name"</span>].<span class="bu">str</span>[<span class="dv">0</span>].<span class="bu">str</span>.lower()</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>Titanic.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="28">
+<div class="cell-output cell-output-display" data-execution_count="32">
 
-  <div id="df-615ddd79-1c0a-4d0e-96f0-1fdde1517551" class="colab-df-container">
+  <div id="df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85" class="colab-df-container">
     <div>
 
 
@@ -1103,7 +1103,7 @@ memory usage: 9.8+ KB</code></pre>
 <td>7.2500</td>
 <td>NaN</td>
 <td>S</td>
-<td>B</td>
+<td>b</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">1</td>
@@ -1119,7 +1119,7 @@ memory usage: 9.8+ KB</code></pre>
 <td>71.2833</td>
 <td>C85</td>
 <td>C</td>
-<td>C</td>
+<td>c</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">2</td>
@@ -1135,7 +1135,7 @@ memory usage: 9.8+ KB</code></pre>
 <td>7.9250</td>
 <td>NaN</td>
 <td>S</td>
-<td>H</td>
+<td>h</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">3</td>
@@ -1151,7 +1151,7 @@ memory usage: 9.8+ KB</code></pre>
 <td>53.1000</td>
 <td>C123</td>
 <td>S</td>
-<td>F</td>
+<td>f</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">4</td>
@@ -1167,7 +1167,7 @@ memory usage: 9.8+ KB</code></pre>
 <td>8.0500</td>
 <td>NaN</td>
 <td>S</td>
-<td>A</td>
+<td>a</td>
 </tr>
 </tbody>
 </table>
@@ -1176,7 +1176,7 @@ memory usage: 9.8+ KB</code></pre>
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-615ddd79-1c0a-4d0e-96f0-1fdde1517551')" title="Convert this dataframe to an interactive table." style="display:none;">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85')" title="Convert this dataframe to an interactive table." style="display:none;">
 
   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
     <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
@@ -1226,12 +1226,12 @@ memory usage: 9.8+ KB</code></pre>
 
     <script>
       const buttonEl =
-        document.querySelector('#df-615ddd79-1c0a-4d0e-96f0-1fdde1517551 button.colab-df-convert');
+        document.querySelector('#df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-615ddd79-1c0a-4d0e-96f0-1fdde1517551');
+        const element = document.querySelector('#df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1251,8 +1251,8 @@ memory usage: 9.8+ KB</code></pre>
   </div>
 
 
-<div id="df-db1da482-858f-47b2-b03c-3d80ec12f228">
-  <button class="colab-df-quickchart" onclick="quickchart('df-db1da482-858f-47b2-b03c-3d80ec12f228')" title="Suggest charts" style="display:none;">
+<div id="df-900ed72a-08b5-4fa7-9a9d-01d7d427eae7">
+  <button class="colab-df-quickchart" onclick="quickchart('df-900ed72a-08b5-4fa7-9a9d-01d7d427eae7')" title="Suggest charts" style="display:none;">
 
 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
     <g>
@@ -1368,7 +1368,7 @@ memory usage: 9.8+ KB</code></pre>
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-db1da482-858f-47b2-b03c-3d80ec12f228 button');
+        document.querySelector('#df-900ed72a-08b5-4fa7-9a9d-01d7d427eae7 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -1379,11 +1379,11 @@ memory usage: 9.8+ KB</code></pre>
   </div>
 </div>
 </div>
-<div id="cell-22" class="cell" data-outputid="ba4a06e0-06cb-4726-dd92-4b360889b379" data-execution_count="30">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>KName <span class="op">=</span> Titanic[Titanic[<span class="st">"NameGroup"</span>] <span class="op">==</span> <span class="st">"K"</span>]</span>
+<div id="cell-22" class="cell" data-outputid="f1e55cb2-e703-4a71-ee83-7e577cb03b5f" data-execution_count="36">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>KName <span class="op">=</span> Titanic[Titanic[<span class="st">"NameGroup"</span>] <span class="op">==</span> <span class="st">"k"</span>]</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>KName.value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="30">
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>KName.count()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="36">
 <div>
 
 
@@ -1391,69 +1391,61 @@ memory usage: 9.8+ KB</code></pre>
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">count</th>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th">PassengerId</th>
-<th data-quarto-table-cell-role="th">Survived</th>
-<th data-quarto-table-cell-role="th">Pclass</th>
-<th data-quarto-table-cell-role="th">Name</th>
-<th data-quarto-table-cell-role="th">Sex</th>
-<th data-quarto-table-cell-role="th">Age</th>
-<th data-quarto-table-cell-role="th">SibSp</th>
-<th data-quarto-table-cell-role="th">Parch</th>
-<th data-quarto-table-cell-role="th">Ticket</th>
-<th data-quarto-table-cell-role="th">Fare</th>
-<th data-quarto-table-cell-role="th">Cabin</th>
-<th data-quarto-table-cell-role="th">Embarked</th>
-<th data-quarto-table-cell-role="th">NameGroup</th>
-<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">0</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">488</td>
-<td data-quarto-table-cell-role="th">No</td>
-<td data-quarto-table-cell-role="th">1</td>
-<td data-quarto-table-cell-role="th">Kent, Mr. Edward Austin</td>
-<td data-quarto-table-cell-role="th">male</td>
-<td data-quarto-table-cell-role="th">58.0</td>
-<td data-quarto-table-cell-role="th">0</td>
-<td data-quarto-table-cell-role="th">0</td>
-<td data-quarto-table-cell-role="th">11771</td>
-<td data-quarto-table-cell-role="th">29.7000</td>
-<td data-quarto-table-cell-role="th">B37</td>
-<td data-quarto-table-cell-role="th">C</td>
-<td data-quarto-table-cell-role="th">K</td>
-<td>1</td>
+<td data-quarto-table-cell-role="th">PassengerId</td>
+<td>28</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">622</td>
-<td data-quarto-table-cell-role="th">Yes</td>
-<td data-quarto-table-cell-role="th">1</td>
-<td data-quarto-table-cell-role="th">Kimball, Mr. Edwin Nelson Jr</td>
-<td data-quarto-table-cell-role="th">male</td>
-<td data-quarto-table-cell-role="th">42.0</td>
-<td data-quarto-table-cell-role="th">1</td>
-<td data-quarto-table-cell-role="th">0</td>
-<td data-quarto-table-cell-role="th">11753</td>
-<td data-quarto-table-cell-role="th">52.5542</td>
-<td data-quarto-table-cell-role="th">D19</td>
-<td data-quarto-table-cell-role="th">S</td>
-<td data-quarto-table-cell-role="th">K</td>
-<td>1</td>
+<td data-quarto-table-cell-role="th">Survived</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Pclass</td>
+<td>28</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Name</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Sex</td>
+<td>28</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Age</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">SibSp</td>
+<td>28</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Parch</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Ticket</td>
+<td>28</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Fare</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">Cabin</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">Embarked</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">NameGroup</td>
+<td>28</td>
 </tr>
 </tbody>
 </table>
