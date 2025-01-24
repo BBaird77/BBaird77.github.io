@@ -1,37 +1,51 @@
 [
   {
-    "objectID": "exploration.html",
-    "href": "exploration.html",
+    "objectID": "competition.html",
+    "href": "competition.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics",
     "crumbs": [
-      "Data Exploration"
+      "Competition"
     ]
   },
   {
-    "objectID": "exploration.html#title-2-header",
-    "href": "exploration.html#title-2-header",
+    "objectID": "competition.html#title-2-header",
+    "href": "competition.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics",
     "crumbs": [
-      "Data Exploration"
+      "Competition"
     ]
   },
   {
-    "objectID": "Cleansing_Exploration/project1.html",
-    "href": "Cleansing_Exploration/project1.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Braedan Baird’s CV",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "Physicist, Mathematician, Cambridge professor.\n\nbbaird77@byui.edu\n\n\n\nStudying at BYU-I.\n\n\n\nExperienced in MS Office Suite\nFamiliar with both PC & Mac Formats\nExperienced with the Adobe Creative Suite\nExperienced with RStudio and VS Code Programs\nCertified with the SolidWorks CAD Program\nExperienced with Lathes, Drill Presses & Welding\nProficient with General Mechanical & Hand Tools\n\n\n\n\nWriting, Math, Science, Computer Software, and Computer Hardware.\n\n\n\n\nBrigham Young University Idaho Attending: 2018, 2021 – Current, Rexburg, ID Conestoga Valley Senior High School\nGraduated: 2017, Lancaster, PA\n\n\n\nCrew Member, McDonald’s, Rexburg, ID\nOct 2021 – Dec 2022, Sep 2023 - Current * Maintained clean, sanitized, and well-organized food preparation zones and prepared cooking supplies, ingredients, and workstations during opening and closing procedures. * Promoted general customer loyalty and provided customer service. * Processed payments and counted change to complete transactions.\nDelivery Associate, Amazon, Mount Joy, PA January 2023 – Sep 2023 * Lifted and moved packages weighing up to 50 lbs. and efficiently loaded and safely drove delivery vehicle. * Navigated surrounding areas and delivered packages safely and efficiently. * Maintained excellent attendance record, consistently arriving at work on time. * Met and exceeded assigned production standards for quality and quotas.\nTeacher Assistant, Brigham Young University Idaho, Rexburg, ID Oct 2021 – May 2022 * Assisted with grading assignments and promptly returning them to students. * Assisted students with concepts and ideas necessary for their growth and overall success in the course. * Provided additional help and assistance to individual students to overcome difficulties in comprehension and mastery."
   },
   {
-    "objectID": "Cleansing_Exploration/project3.html",
-    "href": "Cleansing_Exploration/project3.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "resume.html#currently",
+    "href": "resume.html#currently",
+    "title": "Braedan Baird’s CV",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "Studying at BYU-I.\n\n\n\nExperienced in MS Office Suite\nFamiliar with both PC & Mac Formats\nExperienced with the Adobe Creative Suite\nExperienced with RStudio and VS Code Programs\nCertified with the SolidWorks CAD Program\nExperienced with Lathes, Drill Presses & Welding\nProficient with General Mechanical & Hand Tools\n\n\n\n\nWriting, Math, Science, Computer Software, and Computer Hardware."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Braedan Baird’s CV",
+    "section": "",
+    "text": "Brigham Young University Idaho Attending: 2018, 2021 – Current, Rexburg, ID Conestoga Valley Senior High School\nGraduated: 2017, Lancaster, PA"
+  },
+  {
+    "objectID": "resume.html#occupation",
+    "href": "resume.html#occupation",
+    "title": "Braedan Baird’s CV",
+    "section": "",
+    "text": "Crew Member, McDonald’s, Rexburg, ID\nOct 2021 – Dec 2022, Sep 2023 - Current * Maintained clean, sanitized, and well-organized food preparation zones and prepared cooking supplies, ingredients, and workstations during opening and closing procedures. * Promoted general customer loyalty and provided customer service. * Processed payments and counted change to complete transactions.\nDelivery Associate, Amazon, Mount Joy, PA January 2023 – Sep 2023 * Lifted and moved packages weighing up to 50 lbs. and efficiently loaded and safely drove delivery vehicle. * Navigated surrounding areas and delivered packages safely and efficiently. * Maintained excellent attendance record, consistently arriving at work on time. * Met and exceeded assigned production standards for quality and quotas.\nTeacher Assistant, Brigham Young University Idaho, Rexburg, ID Oct 2021 – May 2022 * Assisted with grading assignments and promptly returning them to students. * Assisted students with concepts and ideas necessary for their growth and overall success in the course. * Provided additional help and assistance to individual students to overcome difficulties in comprehension and mastery."
   },
   {
     "objectID": "notebooks/Exploration_01.html",
@@ -83,46 +97,32 @@
     "text": "🌟 Above and Beyond 🌟\nAfter reviewing your findings, the watchdog group would like some additional questions answered:\n\nHow are things affected if you include the “made for TV movies” that have been assigned TV ratings in your analysis, but still exclude unrated movies?\nThey would also like to see a separate report that includes only TV shows.\nFor an upcoming community meeting, the group would like to present a simple chart showing “For Kids” and “For Adults” categories. The easiest way to accomplish this would be to create a new column in your data frame that maps each rating to the appropriate “For Kids” or “For Adults” label, then create a new visualization based on that column."
   },
   {
-    "objectID": "notebooks/Exploration_02.html",
-    "href": "notebooks/Exploration_02.html",
-    "title": "Data Exploration 02",
-    "section": "",
-    "text": "You’re working as a data analyst at a cereal marketing company in New York.\nIn a strategy meeting, the marketing director tells you that in 2018, the US weight loss industry was worth over $72 Billion dollars, growing 4% compared to the previous year.\nIn contrast, sales of cold cereal fell 6% to $8.5 billion during the same time period.\nCereal executives have approached the marketing company asking how they can somehow tap into the weight loss market growth to boost the sales of their cereal brands.\nYour assignment is to analyze a dataset of nutritional information for major US cereals, and calculate some metrics that can be used by the marketing team."
+    "objectID": "notebooks/module01-assessment.html#submission",
+    "href": "notebooks/module01-assessment.html#submission",
+    "title": "Introduction",
+    "section": "Submission",
+    "text": "Submission\nEach problem group asks a series of questions. This assignment consists of two submissions:\n\nAfter completing the questions below, open the Module 01 Assessment Quiz in Canvas and enter your answers to these questions there.\nAfter completing and submitting the quiz, save this Colab notebook as a GitHub Gist (You’ll need to create a GitHub account for this), by selecting Save a copy as a GitHub Gist from the File menu above.\nIn Canvas, open the Module 01 Assessment GitHub Gist assignment and paste the GitHub Gist URL for this notebook. Then submit that assignment."
   },
   {
-    "objectID": "notebooks/Exploration_02.html#part-1-import-pandas-and-load-the-data",
-    "href": "notebooks/Exploration_02.html#part-1-import-pandas-and-load-the-data",
-    "title": "Data Exploration 02",
-    "section": "Part 1: Import Pandas and load the data",
-    "text": "Part 1: Import Pandas and load the data\nRemember to import Pandas the conventional way. If you’ve forgotten how, you may want to review Data Exploration 01.\nThe dataset for this exploration is stored at the following url:\nhttps://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\nThere are lots of ways to load data into your workspace. The easiest way in this case is to ask Pandas to do it for you.\n\nInitial Data Analysis\nOnce you’ve loaded the data, it’s a good idea to poke around a little bit to find out what you’re dealing with.\nSome questions you might ask include:\n\nWhat does the data look like?\nWhat kind of data is in each column?\nDo any of the columns have missing values?\n\n\n# Part 1: Enter your code below to import Pandas according to the\n# conventional method. Then load the dataset into a Pandas dataframe.\n\n# Write any code needed to explore the data by seeing what the first few\n# rows look like. Then display a technical summary of the data to determine\n# the data types of each column, and which columns have missing data.\n\nimport pandas as pd\ncereal = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\")\n\ncereal.head()\n\n\n  \n    \n\n\n\n\n\n\nname\nmfr\ntype\ncalories\nprotein\nfat\nsodium\nfiber\ncarbo\nsugars\npotass\nvitamins\nshelf\nweight\ncups\nrating\n\n\n\n\n0\n100% Bran\nN\nC\n70\n4\n1\n130\n10.0\n5.0\n6\n280\n25\n3\n1.0\n0.33\n68.402973\n\n\n1\n100% Natural Bran\nQ\nC\n120\n3\n5\n15\n2.0\n8.0\n8\n135\n0\n3\n1.0\n1.00\n33.983679\n\n\n2\nAll-Bran\nK\nC\n70\n4\n1\n260\n9.0\n7.0\n5\n320\n25\n3\n1.0\n0.33\n59.425505\n\n\n3\nAll-Bran with Extra Fiber\nK\nC\n50\n4\n0\n140\n14.0\n8.0\n0\n330\n25\n3\n1.0\n0.50\n93.704912\n\n\n4\nAlmond Delight\nR\nC\n110\n2\n2\n200\n1.0\n14.0\n8\n-1\n25\n3\n1.0\n0.75\n34.384843\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\ncereal.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 77 entries, 0 to 76\nData columns (total 16 columns):\n #   Column    Non-Null Count  Dtype  \n---  ------    --------------  -----  \n 0   name      77 non-null     object \n 1   mfr       77 non-null     object \n 2   type      77 non-null     object \n 3   calories  77 non-null     int64  \n 4   protein   77 non-null     int64  \n 5   fat       77 non-null     int64  \n 6   sodium    77 non-null     int64  \n 7   fiber     77 non-null     float64\n 8   carbo     77 non-null     float64\n 9   sugars    77 non-null     int64  \n 10  potass    77 non-null     int64  \n 11  vitamins  77 non-null     int64  \n 12  shelf     77 non-null     int64  \n 13  weight    77 non-null     float64\n 14  cups      77 non-null     float64\n 15  rating    77 non-null     float64\ndtypes: float64(5), int64(8), object(3)\nmemory usage: 9.8+ KB"
+    "objectID": "notebooks/module01-assessment.html#problem-group-1",
+    "href": "notebooks/module01-assessment.html#problem-group-1",
+    "title": "Introduction",
+    "section": "Problem Group 1",
+    "text": "Problem Group 1\nFor the questions in this group, you’ll work with the Netflix Movies Dataset found at this url: https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv\n\nQuestion 1\nLoad the dataset into a Pandas data frame and determine what data type is used to store the release_year feature.\n\nimport pandas as pd\nNetflix = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv\")\n\n\nNetflix.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 6234 entries, 0 to 6233\nData columns (total 12 columns):\n #   Column        Non-Null Count  Dtype \n---  ------        --------------  ----- \n 0   show_id       6234 non-null   int64 \n 1   type          6234 non-null   object\n 2   title         6234 non-null   object\n 3   director      4265 non-null   object\n 4   cast          5664 non-null   object\n 5   country       5758 non-null   object\n 6   date_added    6223 non-null   object\n 7   release_year  6234 non-null   int64 \n 8   rating        6224 non-null   object\n 9   duration      6234 non-null   object\n 10  listed_in     6234 non-null   object\n 11  description   6234 non-null   object\ndtypes: int64(2), object(10)\nmemory usage: 584.6+ KB\n\n\n\n\nQuestion 2\nFilter your dataset so it contains only TV Shows. How many of those TV Shows were rated TV-Y7?\n\n\nQuestion 3\nFurther filter your dataset so it only contains TV Shows released between the years 2000 and 2009 inclusive. How many of those shows were rated TV-Y7?\n\nTV = Netflix[Netflix[\"type\"] == \"TV Show\"]\nlen(TV)\n\n1969\n\n\n\nTV[\"rating\"].value_counts()\n\nTV2 = TV[(Netflix[\"release_year\"] &gt;= 2000) & (Netflix[\"release_year\"] &lt;= 2009)]\n\nTV2[\"rating\"].value_counts()\n\nUserWarning: Boolean Series key will be reindexed to match DataFrame index.\n  TV2 = TV[(Netflix[\"release_year\"] &gt;= 2000) & (Netflix[\"release_year\"] &lt;= 2009)]\n\n\n\n\n\n\n\n\n\ncount\n\n\nrating\n\n\n\n\n\nTV-14\n52\n\n\nTV-PG\n22\n\n\nTV-MA\n13\n\n\nTV-Y7-FV\n11\n\n\nNR\n4\n\n\nTV-G\n4\n\n\nTV-Y7\n4\n\n\nTV-Y\n3\n\n\n\n\ndtype: int64"
   },
   {
-    "objectID": "notebooks/Exploration_02.html#part-2-calculate-summary-statistics",
-    "href": "notebooks/Exploration_02.html#part-2-calculate-summary-statistics",
-    "title": "Data Exploration 02",
-    "section": "Part 2: Calculate Summary Statistics",
-    "text": "Part 2: Calculate Summary Statistics\nThe marketing team has determined that when choosing a cereal, consumers are most interested in calories, sugars, fiber, fat, and protein.\nFirst, let’s calcuate some summary statistics for these categories across the entire dataset. We’re particularly intrested in the mean, median, standard deviation, min, and max values.\nThere are multiple ways to accomplish this.\n\n# Part 2: Enter your code below to calculate summary statistics for the\n# calories, sugars, fiber, fat, and protein features.\n\ncereal[[\"calories\", \"sugars\", \"fiber\", \"fat\", \"protein\"]].describe()\n\n\n  \n    \n\n\n\n\n\n\ncalories\nsugars\nfiber\nfat\nprotein\n\n\n\n\ncount\n77.000000\n77.000000\n77.000000\n77.000000\n77.000000\n\n\nmean\n106.883117\n6.922078\n2.151948\n1.012987\n2.545455\n\n\nstd\n19.484119\n4.444885\n2.383364\n1.006473\n1.094790\n\n\nmin\n50.000000\n-1.000000\n0.000000\n0.000000\n1.000000\n\n\n25%\n100.000000\n3.000000\n1.000000\n0.000000\n2.000000\n\n\n50%\n110.000000\n7.000000\n2.000000\n1.000000\n3.000000\n\n\n75%\n110.000000\n11.000000\n3.000000\n2.000000\n3.000000\n\n\nmax\n160.000000\n15.000000\n14.000000\n5.000000\n6.000000"
+    "objectID": "notebooks/module01-assessment.html#problem-group-2",
+    "href": "notebooks/module01-assessment.html#problem-group-2",
+    "title": "Introduction",
+    "section": "Problem Group 2",
+    "text": "Problem Group 2\nFor the questions in this group, you’ll work with the Cereal Dataset found at this url: https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\n\nQuestion 4\nAfter importing the dataset into a pandas data frame, determine the median amount of protein in cereal brands manufactured by Kelloggs. (mfr code “K”)\n\nimport pandas as pd\ncereal = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\")\n\ncereal.head()\n\n\n  \n    \n\n\n\n\n\n\nname\nmfr\ntype\ncalories\nprotein\nfat\nsodium\nfiber\ncarbo\nsugars\npotass\nvitamins\nshelf\nweight\ncups\nrating\n\n\n\n\n0\n100% Bran\nN\nC\n70\n4\n1\n130\n10.0\n5.0\n6\n280\n25\n3\n1.0\n0.33\n68.402973\n\n\n1\n100% Natural Bran\nQ\nC\n120\n3\n5\n15\n2.0\n8.0\n8\n135\n0\n3\n1.0\n1.00\n33.983679\n\n\n2\nAll-Bran\nK\nC\n70\n4\n1\n260\n9.0\n7.0\n5\n320\n25\n3\n1.0\n0.33\n59.425505\n\n\n3\nAll-Bran with Extra Fiber\nK\nC\n50\n4\n0\n140\n14.0\n8.0\n0\n330\n25\n3\n1.0\n0.50\n93.704912\n\n\n4\nAlmond Delight\nR\nC\n110\n2\n2\n200\n1.0\n14.0\n8\n-1\n25\n3\n1.0\n0.75\n34.384843\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\ncereal.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 77 entries, 0 to 76\nData columns (total 16 columns):\n #   Column    Non-Null Count  Dtype  \n---  ------    --------------  -----  \n 0   name      77 non-null     object \n 1   mfr       77 non-null     object \n 2   type      77 non-null     object \n 3   calories  77 non-null     int64  \n 4   protein   77 non-null     int64  \n 5   fat       77 non-null     int64  \n 6   sodium    77 non-null     int64  \n 7   fiber     77 non-null     float64\n 8   carbo     77 non-null     float64\n 9   sugars    77 non-null     int64  \n 10  potass    77 non-null     int64  \n 11  vitamins  77 non-null     int64  \n 12  shelf     77 non-null     int64  \n 13  weight    77 non-null     float64\n 14  cups      77 non-null     float64\n 15  rating    77 non-null     float64\ndtypes: float64(5), int64(8), object(3)\nmemory usage: 9.8+ KB\n\n\n\nKelloggs = cereal[cereal[\"mfr\"] == \"K\"]\n\nKelloggs[\"protein\"].median()\n\n3.0\n\n\n\n\nQuestion 5\nIn order to comply with new government regulations, all cereals must now come with a “Healthiness” rating. This rating is calculated based on this formula:\nhealthiness = (protein + fiber) / sugar\nCreate a new healthiness column populated with values based on the above formula.\nThen, determine the median healthiness value for only General Mills cereals (mfr = “G”), rounded to two decimal places.\n\ncereal[\"healthiness\"] = (cereal[\"protein\"] + cereal[\"fiber\"])/cereal[\"sugars\"]\n\nGM = cereal[cereal[\"mfr\"] == \"G\"]\n\nround(GM[\"healthiness\"].median(), 2)\n\n0.47"
   },
   {
-    "objectID": "notebooks/Exploration_02.html#part-3-transform-data",
-    "href": "notebooks/Exploration_02.html#part-3-transform-data",
-    "title": "Data Exploration 02",
-    "section": "Part 3: Transform Data",
-    "text": "Part 3: Transform Data\nTo make analysis easier, you want to convert the manufacturer codes used in the dataset to the manufacturer names.\nFirst, display the count of each manufacturer code value used in the dataset (found in the mfr column).\nThen, create a new column with the appropriate manufacturer name for each entry, using this mapping:\nA = American Home Food Products\nG = General Mills\nK = Kelloggs\nN = Nabisco\nP = Post\nQ = Quaker Oats\nR = Ralston Purina\n\nNote: While the tutorial linked above uses the replace function, using the map function instead can often be much faster and more memory efficient, especially for large datasets.\n\n\n# Display the count of values for the manufacturer code (\"mfr\" column), then\n# create a new column containing the appropriate manufacturer names.\ncereal[\"CompanyName\"] = cereal[\"mfr\"].map({\n    \"A\": \"American Home Food Products\",\n    \"G\": \"General Mills\",\n    \"K\": \"Kelloggs\",\n    \"N\": \"Nabisco\",\n    \"P\": \"Post\",\n    \"Q\": \"Quaker Oats\",\n    \"R\": \"Ralston Purina\"\n})\n\ncereal[\"CompanyName\"].value_counts()\n\n\n\n\n\n\n\n\ncount\n\n\nCompanyName\n\n\n\n\n\nKelloggs\n23\n\n\nGeneral Mills\n22\n\n\nPost\n9\n\n\nQuaker Oats\n8\n\n\nRalston Purina\n8\n\n\nNabisco\n6\n\n\nAmerican Home Food Products\n1\n\n\n\n\ndtype: int64"
-  },
-  {
-    "objectID": "notebooks/Exploration_02.html#part-4-visualization",
-    "href": "notebooks/Exploration_02.html#part-4-visualization",
-    "title": "Data Exploration 02",
-    "section": "Part 4: Visualization",
-    "text": "Part 4: Visualization\nLet’s do some more data exploration visually.\nImport your visualization library of choice and set any needed configuration options.\n\n# Import your visualization library\n\n\nSugar Distribution\nMarketing tells us that their surveys have revealed that sugar content is the number one concern of consumers when choosing cereal.\nThey would like to see the following visualizations:\n\nA histogram plot of the sugar content in all cereals.\nA scatter plot showing the relationship between sugar and calories.\nA box plot showing the distribution of sugar content by manufacturer.\n\n\n# Create the three visualzations requested by the the marketing team\nimport altair as alt\n\nbarchart = alt.Chart(cereal).mark_bar().encode(\n    alt.X(\"sugars\", bin=True, title=\"Sugar (Grams)\"),\n    alt.Y(\"count()\", title=\"Number of Cereal Brands\")\n).properties(\n    width=400,\n    height=400\n)\n\nbarchart\n\n\n\n\n\n\n\n\nscatterplot = alt.Chart(cereal).mark_circle(\n    size = 100\n).encode(\n    alt.X(\"calories\", title=\"Calories (KCal)\"),\n    alt.Y(\"sugars\", title=\"Sugar (Grams)\"),\n    tooltip=(\"name\")\n).properties(\n    width=400,\n    height=400\n)\n\nscatterplot\n\n\n\n\n\n\n\n\nboxplot = alt.Chart(cereal).mark_boxplot(\n    size=50\n).encode(\n    alt.X(\"CompanyName\", title=None),\n    alt.Y(\"sugars\", title=\"Sugar (Grams)\"),\n    tooltip=(\"name\")\n).properties(\n    width=400,\n    height=400\n)\n\nboxplot"
-  },
-  {
-    "objectID": "notebooks/Exploration_02.html#above-and-beyond",
-    "href": "notebooks/Exploration_02.html#above-and-beyond",
-    "title": "Data Exploration 02",
-    "section": "🌟 Above and Beyond 🌟",
-    "text": "🌟 Above and Beyond 🌟\nThe marketing team is pleased with what you’ve accomplished so far. They have a meeting with top cereal executives in the morning, and they’d like you to do as many of the following additional tasks as you have time for:\n\nWeight Watchers used to have an older points system that used this formula: (calories / 50) + (fat / 12) - (fiber / 5), but only the first 4 grams of fiber were included in the calculation. For comparison’s sake, create an additional column with the calculation for the old points system.\nMarketing really likes the boxplot of the sugar content for each cereal, they’d like similar plots for calories and fat, but using different color schemes for each chart."
+    "objectID": "notebooks/module01-assessment.html#problem-group-3",
+    "href": "notebooks/module01-assessment.html#problem-group-3",
+    "title": "Introduction",
+    "section": "Problem Group 3",
+    "text": "Problem Group 3\nFor the questions in this group, you’ll work with the Titanic Dataset found at this url: https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv\n\nQuestion 6\nAfter loading the dataset into a pandas DataFrame, create a new column called NameGroup that contains the first letter of the passenger’s surname in lower case.\nNote that in the dataset, passenger’s names are provided in the Name column and are listed as:\nSurname, Given names\nFor example, if a passenger’s Name is Braund, Mr. Owen Harris, the NameGroup column should contain the value b.\nThen count how many passengers have a NameGroup value of k.\n\nTitanic = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv\")\n\nTitanic.head()\n\n\n  \n    \n\n\n\n\n\n\nPassengerId\nSurvived\nPclass\nName\nSex\nAge\nSibSp\nParch\nTicket\nFare\nCabin\nEmbarked\n\n\n\n\n0\n1\nNo\n3\nBraund, Mr. Owen Harris\nmale\n22.0\n1\n0\nA/5 21171\n7.2500\nNaN\nS\n\n\n1\n2\nYes\n1\nCumings, Mrs. John Bradley (Florence Briggs Th...\nfemale\n38.0\n1\n0\nPC 17599\n71.2833\nC85\nC\n\n\n2\n3\nYes\n3\nHeikkinen, Miss. Laina\nfemale\n26.0\n0\n0\nSTON/O2. 3101282\n7.9250\nNaN\nS\n\n\n3\n4\nYes\n1\nFutrelle, Mrs. Jacques Heath (Lily May Peel)\nfemale\n35.0\n1\n0\n113803\n53.1000\nC123\nS\n\n\n4\n5\nNo\n3\nAllen, Mr. William Henry\nmale\n35.0\n0\n0\n373450\n8.0500\nNaN\nS\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\nTitanic[\"NameGroup\"] = Titanic[\"Name\"].str[0].str.lower()\nTitanic.head()\n\n\n  \n    \n\n\n\n\n\n\nPassengerId\nSurvived\nPclass\nName\nSex\nAge\nSibSp\nParch\nTicket\nFare\nCabin\nEmbarked\nNameGroup\n\n\n\n\n0\n1\nNo\n3\nBraund, Mr. Owen Harris\nmale\n22.0\n1\n0\nA/5 21171\n7.2500\nNaN\nS\nb\n\n\n1\n2\nYes\n1\nCumings, Mrs. John Bradley (Florence Briggs Th...\nfemale\n38.0\n1\n0\nPC 17599\n71.2833\nC85\nC\nc\n\n\n2\n3\nYes\n3\nHeikkinen, Miss. Laina\nfemale\n26.0\n0\n0\nSTON/O2. 3101282\n7.9250\nNaN\nS\nh\n\n\n3\n4\nYes\n1\nFutrelle, Mrs. Jacques Heath (Lily May Peel)\nfemale\n35.0\n1\n0\n113803\n53.1000\nC123\nS\nf\n\n\n4\n5\nNo\n3\nAllen, Mr. William Henry\nmale\n35.0\n0\n0\n373450\n8.0500\nNaN\nS\na\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\nKName = Titanic[Titanic[\"NameGroup\"] == \"k\"]\n\nKName.count()\n\n\n\n\n\n\n\n\n0\n\n\n\n\nPassengerId\n28\n\n\nSurvived\n28\n\n\nPclass\n28\n\n\nName\n28\n\n\nSex\n28\n\n\nAge\n16\n\n\nSibSp\n28\n\n\nParch\n28\n\n\nTicket\n28\n\n\nFare\n28\n\n\nCabin\n5\n\n\nEmbarked\n28\n\n\nNameGroup\n28\n\n\n\n\ndtype: int64"
   },
   {
     "objectID": "notebooks/Exploration_03.html",
@@ -181,133 +181,14 @@
     "text": "🌟 Above and Beyond 🌟\n\nThere appears to be a lot of different variations of similar titles. (such as abbreviations for Miss and Mademoiselle).\nScan through the different titles to see which titles can be consolidated, then use what you know about data manipulation to simplify the distribution.\nOnce you’ve finished, check the visualizations again to see if that made any difference.\nThe museum curator has room for a couple of nice visualizations for the exhibit. Create additional visualizations that are suitable for public display.\n\n\nalt.Chart(Titanic).mark_bar(\n).encode(\n    alt.X(\"Survived\", title=\"Survived\"),\n    alt.Y(\"count()\", title=\"Number of Passengers\"),\n    alt.Color(\"Survived\"),\n    column=alt.Column(\"Sex\")\n).properties(\n    width=100,\n    title=\"Survival Rate by Gender\"\n)\n\n\n\n\n\n\n\n\nalt.Chart(Titanic).mark_point(\n).encode(\n    alt.X(\"Age\", title=\"Passenger Age\"),\n    alt.Y(\"PassengerId\", title=\"Passenger ID\"),\n    alt.Color(\"Survived\"),\n    alt.Fill(\"Survived\")\n).properties(\n    width=800,\n    title=\"Survival Rate by Age\"\n)"
   },
   {
-    "objectID": "Competition/project2.html",
-    "href": "Competition/project2.html",
+    "objectID": "Cleansing_Projects/project3.html",
+    "href": "Cleansing_Projects/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Competition",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "Competition/project4.html",
-    "href": "Competition/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition",
-      "Project 4"
-    ]
-  },
-  {
-    "objectID": "Competition/project5.html",
-    "href": "Competition/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competition",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "competition.html",
-    "href": "competition.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Competition"
-    ]
-  },
-  {
-    "objectID": "competition.html#title-2-header",
-    "href": "competition.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Competition"
-    ]
-  },
-  {
-    "objectID": "Full_Stack/project2.html",
-    "href": "Full_Stack/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "Full_Stack/project4.html",
-    "href": "Full_Stack/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack",
-      "Project 4"
-    ]
-  },
-  {
-    "objectID": "Full_Stack/project5.html",
-    "href": "Full_Stack/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project1.html",
-    "href": "Story_Telling/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "Story_Telling/project3.html",
-    "href": "Story_Telling/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
+      "Data Cleansing",
       "Project 3"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project2.html",
-    "href": "Cleansing_Projects/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 2"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project4.html",
-    "href": "Cleansing_Projects/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 4"
     ]
   },
   {
@@ -322,23 +203,47 @@
     ]
   },
   {
-    "objectID": "cleansing.html",
-    "href": "cleansing.html",
-    "title": "about me",
+    "objectID": "Cleansing_Projects/project1.html",
+    "href": "Cleansing_Projects/project1.html",
+    "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Data Cleansing"
+      "Data Cleansing",
+      "Project 1"
     ]
   },
   {
-    "objectID": "cleansing.html#title-2-header",
-    "href": "cleansing.html#title-2-header",
-    "title": "about me",
+    "objectID": "Competition/project3.html",
+    "href": "Competition/project3.html",
+    "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "MarkDown Basics",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Data Cleansing"
+      "Competition",
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "Competition/project5.html",
+    "href": "Competition/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "Competition/project1.html",
+    "href": "Competition/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 1"
     ]
   },
   {
@@ -364,106 +269,14 @@
     ]
   },
   {
-    "objectID": "Machine_Learning/project5.html",
-    "href": "Machine_Learning/project5.html",
+    "objectID": "Story_Telling/project3.html",
+    "href": "Story_Telling/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Machine Learning",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "Machine_Learning/project3.html",
-    "href": "Machine_Learning/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
+      "Story Telling",
       "Project 3"
-    ]
-  },
-  {
-    "objectID": "Machine_Learning/project1.html",
-    "href": "Machine_Learning/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 1"
-    ]
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Braedan Baird’s CV",
-    "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nbbaird77@byui.edu\n\n\n\nStudying at BYU-I.\n\n\n\nExperienced in MS Office Suite\nFamiliar with both PC & Mac Formats\nExperienced with the Adobe Creative Suite\nExperienced with RStudio and VS Code Programs\nCertified with the SolidWorks CAD Program\nExperienced with Lathes, Drill Presses & Welding\nProficient with General Mechanical & Hand Tools\n\n\n\n\nWriting, Math, Science, Computer Software, and Computer Hardware.\n\n\n\n\nBrigham Young University Idaho Attending: 2018, 2021 – Current, Rexburg, ID Conestoga Valley Senior High School\nGraduated: 2017, Lancaster, PA\n\n\n\nCrew Member, McDonald’s, Rexburg, ID\nOct 2021 – Dec 2022, Sep 2023 - Current * Maintained clean, sanitized, and well-organized food preparation zones and prepared cooking supplies, ingredients, and workstations during opening and closing procedures. * Promoted general customer loyalty and provided customer service. * Processed payments and counted change to complete transactions.\nDelivery Associate, Amazon, Mount Joy, PA January 2023 – Sep 2023 * Lifted and moved packages weighing up to 50 lbs. and efficiently loaded and safely drove delivery vehicle. * Navigated surrounding areas and delivered packages safely and efficiently. * Maintained excellent attendance record, consistently arriving at work on time. * Met and exceeded assigned production standards for quality and quotas.\nTeacher Assistant, Brigham Young University Idaho, Rexburg, ID Oct 2021 – May 2022 * Assisted with grading assignments and promptly returning them to students. * Assisted students with concepts and ideas necessary for their growth and overall success in the course. * Provided additional help and assistance to individual students to overcome difficulties in comprehension and mastery."
-  },
-  {
-    "objectID": "resume.html#currently",
-    "href": "resume.html#currently",
-    "title": "Braedan Baird’s CV",
-    "section": "",
-    "text": "Studying at BYU-I.\n\n\n\nExperienced in MS Office Suite\nFamiliar with both PC & Mac Formats\nExperienced with the Adobe Creative Suite\nExperienced with RStudio and VS Code Programs\nCertified with the SolidWorks CAD Program\nExperienced with Lathes, Drill Presses & Welding\nProficient with General Mechanical & Hand Tools\n\n\n\n\nWriting, Math, Science, Computer Software, and Computer Hardware."
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Braedan Baird’s CV",
-    "section": "",
-    "text": "Brigham Young University Idaho Attending: 2018, 2021 – Current, Rexburg, ID Conestoga Valley Senior High School\nGraduated: 2017, Lancaster, PA"
-  },
-  {
-    "objectID": "resume.html#occupation",
-    "href": "resume.html#occupation",
-    "title": "Braedan Baird’s CV",
-    "section": "",
-    "text": "Crew Member, McDonald’s, Rexburg, ID\nOct 2021 – Dec 2022, Sep 2023 - Current * Maintained clean, sanitized, and well-organized food preparation zones and prepared cooking supplies, ingredients, and workstations during opening and closing procedures. * Promoted general customer loyalty and provided customer service. * Processed payments and counted change to complete transactions.\nDelivery Associate, Amazon, Mount Joy, PA January 2023 – Sep 2023 * Lifted and moved packages weighing up to 50 lbs. and efficiently loaded and safely drove delivery vehicle. * Navigated surrounding areas and delivered packages safely and efficiently. * Maintained excellent attendance record, consistently arriving at work on time. * Met and exceeded assigned production standards for quality and quotas.\nTeacher Assistant, Brigham Young University Idaho, Rexburg, ID Oct 2021 – May 2022 * Assisted with grading assignments and promptly returning them to students. * Assisted students with concepts and ideas necessary for their growth and overall success in the course. * Provided additional help and assistance to individual students to overcome difficulties in comprehension and mastery."
-  },
-  {
-    "objectID": "ml.html",
-    "href": "ml.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "ml.html#title-2-header",
-    "href": "ml.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project3.html",
-    "href": "Cleansing_Projects/project3.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 3"
-    ]
-  },
-  {
-    "objectID": "Cleansing_Projects/project1.html",
-    "href": "Cleansing_Projects/project1.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 1"
     ]
   },
   {
@@ -475,6 +288,167 @@
     "crumbs": [
       "Story Telling",
       "Project 5"
+    ]
+  },
+  {
+    "objectID": "Story_Telling/project1.html",
+    "href": "Story_Telling/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Story Telling",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project2.html",
+    "href": "Full_Stack/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project4.html",
+    "href": "Full_Stack/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "story_telling.html",
+    "href": "story_telling.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "story_telling.html#title-2-header",
+    "href": "story_telling.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Story Telling"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project3.html",
+    "href": "Cleansing_Exploration/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project5.html",
+    "href": "Cleansing_Exploration/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html",
+    "href": "Cleansing_Exploration/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "exploration.html#title-2-header",
+    "href": "exploration.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Data Exploration"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project4.html",
+    "href": "Cleansing_Exploration/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Cleansing_Exploration/project2.html",
+    "href": "Cleansing_Exploration/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "full_stack.html",
+    "href": "full_stack.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Full Stack"
+    ]
+  },
+  {
+    "objectID": "full_stack.html#title-2-header",
+    "href": "full_stack.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Full Stack"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project1.html",
+    "href": "Full_Stack/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project5.html",
+    "href": "Full_Stack/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "Full_Stack/project3.html",
+    "href": "Full_Stack/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Full Stack",
+      "Project 3"
     ]
   },
   {
@@ -500,25 +474,58 @@
     ]
   },
   {
-    "objectID": "Full_Stack/project3.html",
-    "href": "Full_Stack/project3.html",
+    "objectID": "Machine_Learning/project1.html",
+    "href": "Machine_Learning/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack",
+      "Machine Learning",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Machine_Learning/project5.html",
+    "href": "Machine_Learning/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Machine Learning",
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "Machine_Learning/project3.html",
+    "href": "Machine_Learning/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Machine Learning",
       "Project 3"
     ]
   },
   {
-    "objectID": "Full_Stack/project1.html",
-    "href": "Full_Stack/project1.html",
+    "objectID": "Competition/project4.html",
+    "href": "Competition/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Full Stack",
-      "Project 1"
+      "Competition",
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "Competition/project2.html",
+    "href": "Competition/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Competition",
+      "Project 2"
     ]
   },
   {
@@ -536,65 +543,45 @@
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "story_telling.html",
-    "href": "story_telling.html",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Story Telling"
-    ]
-  },
-  {
-    "objectID": "story_telling.html#title-2-header",
-    "href": "story_telling.html#title-2-header",
-    "title": "about me",
-    "section": "",
-    "text": "MarkDown Basics",
-    "crumbs": [
-      "Story Telling"
-    ]
-  },
-  {
-    "objectID": "Competition/project3.html",
-    "href": "Competition/project3.html",
+    "objectID": "Cleansing_Projects/project4.html",
+    "href": "Cleansing_Projects/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Competition",
-      "Project 3"
+      "Data Cleansing",
+      "Project 4"
     ]
   },
   {
-    "objectID": "Competition/project1.html",
-    "href": "Competition/project1.html",
+    "objectID": "Cleansing_Projects/project2.html",
+    "href": "Cleansing_Projects/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
-      "Competition",
-      "Project 1"
+      "Data Cleansing",
+      "Project 2"
     ]
   },
   {
-    "objectID": "full_stack.html",
-    "href": "full_stack.html",
+    "objectID": "cleansing.html",
+    "href": "cleansing.html",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics",
     "crumbs": [
-      "Full Stack"
+      "Data Cleansing"
     ]
   },
   {
-    "objectID": "full_stack.html#title-2-header",
-    "href": "full_stack.html#title-2-header",
+    "objectID": "cleansing.html#title-2-header",
+    "href": "cleansing.html#title-2-header",
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics",
     "crumbs": [
-      "Full Stack"
+      "Data Cleansing"
     ]
   },
   {
@@ -647,52 +634,72 @@
     "text": "🌟 Above and Beyond 🌟\nOnce you’ve complted the basics, try to complete one or more of the following tasks:\n\nSee if you can get better results from your model through some data preprocessing, such as normalization.\nOften, using too many features can give poor results. Can you get better performance using a subset of the features instead of all four?\nAre there other ways you could visualize your model results?\n\n\nX2 = Flowers[[\"sepal_length\", \"petal_length\"]]\nX2.head()\n\n\n  \n    \n\n\n\n\n\n\nsepal_length\npetal_length\n\n\n\n\n0\n5.1\n1.4\n\n\n1\n4.9\n1.4\n\n\n2\n4.7\n1.3\n\n\n3\n4.6\n1.5\n\n\n4\n5.0\n1.4\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\ny = Flowers[\"species\"]\ny.head()\n\n\n\n\n\n\n\n\nspecies\n\n\n\n\n0\nIris-setosa\n\n\n1\nIris-setosa\n\n\n2\nIris-setosa\n\n\n3\nIris-setosa\n\n\n4\nIris-setosa\n\n\n\n\ndtype: object\n\n\n\nX2_train, X2_test, y_train, y_test = train_test_split(X2, y, test_size=.2)\n\n\nCLF2.fit(X2_train, y_train)\n\nKNeighborsClassifier(n_neighbors=3)In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.KNeighborsClassifier?Documentation for KNeighborsClassifieriFittedKNeighborsClassifier(n_neighbors=3) \n\n\n\nTestPredict2 = CLF2.predict(X2_test)\nTestPredict2\n\narray(['Iris-virginica', 'Iris-versicolor', 'Iris-setosa',\n       'Iris-virginica', 'Iris-setosa', 'Iris-setosa', 'Iris-virginica',\n       'Iris-versicolor', 'Iris-setosa', 'Iris-versicolor',\n       'Iris-versicolor', 'Iris-versicolor', 'Iris-virginica',\n       'Iris-versicolor', 'Iris-virginica', 'Iris-setosa',\n       'Iris-virginica', 'Iris-setosa', 'Iris-virginica',\n       'Iris-versicolor', 'Iris-virginica', 'Iris-versicolor',\n       'Iris-virginica', 'Iris-virginica', 'Iris-versicolor',\n       'Iris-virginica', 'Iris-setosa', 'Iris-setosa', 'Iris-setosa',\n       'Iris-virginica'], dtype=object)\n\n\n\ny_test\n\n\n\n\n\n\n\n\nspecies\n\n\n\n\n121\nIris-virginica\n\n\n64\nIris-versicolor\n\n\n42\nIris-setosa\n\n\n127\nIris-virginica\n\n\n32\nIris-setosa\n\n\n47\nIris-setosa\n\n\n118\nIris-virginica\n\n\n66\nIris-versicolor\n\n\n13\nIris-setosa\n\n\n78\nIris-versicolor\n\n\n85\nIris-versicolor\n\n\n55\nIris-versicolor\n\n\n123\nIris-virginica\n\n\n70\nIris-versicolor\n\n\n112\nIris-virginica\n\n\n37\nIris-setosa\n\n\n132\nIris-virginica\n\n\n48\nIris-setosa\n\n\n122\nIris-virginica\n\n\n75\nIris-versicolor\n\n\n103\nIris-virginica\n\n\n88\nIris-versicolor\n\n\n143\nIris-virginica\n\n\n129\nIris-virginica\n\n\n90\nIris-versicolor\n\n\n145\nIris-virginica\n\n\n23\nIris-setosa\n\n\n18\nIris-setosa\n\n\n40\nIris-setosa\n\n\n137\nIris-virginica\n\n\n\n\ndtype: object\n\n\n\naccuracy_score(y_test, TestPredict2)\n\n1.0\n\n\n\nConfuseMat2 = confusion_matrix(y_test, TestPredict2)\n\n\nsns.heatmap(ConfuseMat2, annot=True, fmt=\"d\", cmap=\"Blues\")"
   },
   {
-    "objectID": "notebooks/module01-assessment.html#submission",
-    "href": "notebooks/module01-assessment.html#submission",
-    "title": "Introduction",
-    "section": "Submission",
-    "text": "Submission\nEach problem group asks a series of questions. This assignment consists of two submissions:\n\nAfter completing the questions below, open the Module 01 Assessment Quiz in Canvas and enter your answers to these questions there.\nAfter completing and submitting the quiz, save this Colab notebook as a GitHub Gist (You’ll need to create a GitHub account for this), by selecting Save a copy as a GitHub Gist from the File menu above.\nIn Canvas, open the Module 01 Assessment GitHub Gist assignment and paste the GitHub Gist URL for this notebook. Then submit that assignment."
-  },
-  {
-    "objectID": "notebooks/module01-assessment.html#problem-group-1",
-    "href": "notebooks/module01-assessment.html#problem-group-1",
-    "title": "Introduction",
-    "section": "Problem Group 1",
-    "text": "Problem Group 1\nFor the questions in this group, you’ll work with the Netflix Movies Dataset found at this url: https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv\n\nQuestion 1\nLoad the dataset into a Pandas data frame and determine what data type is used to store the release_year feature.\n\nimport pandas as pd\nNetflix = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv\")\n\n\nNetflix.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 6234 entries, 0 to 6233\nData columns (total 12 columns):\n #   Column        Non-Null Count  Dtype \n---  ------        --------------  ----- \n 0   show_id       6234 non-null   int64 \n 1   type          6234 non-null   object\n 2   title         6234 non-null   object\n 3   director      4265 non-null   object\n 4   cast          5664 non-null   object\n 5   country       5758 non-null   object\n 6   date_added    6223 non-null   object\n 7   release_year  6234 non-null   int64 \n 8   rating        6224 non-null   object\n 9   duration      6234 non-null   object\n 10  listed_in     6234 non-null   object\n 11  description   6234 non-null   object\ndtypes: int64(2), object(10)\nmemory usage: 584.6+ KB\n\n\n\n\nQuestion 2\nFilter your dataset so it contains only TV Shows. How many of those TV Shows were rated TV-Y7?\n\n\nQuestion 3\nFurther filter your dataset so it only contains TV Shows released between the years 2000 and 2009 inclusive. How many of those shows were rated TV-Y7?\n\nTV = Netflix[Netflix[\"type\"] == \"TV Show\"]\nlen(TV)\n\n1969\n\n\n\nTV[\"rating\"].value_counts()\n\nTV2 = TV[(Netflix[\"release_year\"] &gt;= 2000) & (Netflix[\"release_year\"] &lt;= 2009)]\n\nTV2[\"rating\"].value_counts()\n\nUserWarning: Boolean Series key will be reindexed to match DataFrame index.\n  TV2 = TV[(Netflix[\"release_year\"] &gt;= 2000) & (Netflix[\"release_year\"] &lt;= 2009)]\n\n\n\n\n\n\n\n\n\ncount\n\n\nrating\n\n\n\n\n\nTV-14\n52\n\n\nTV-PG\n22\n\n\nTV-MA\n13\n\n\nTV-Y7-FV\n11\n\n\nNR\n4\n\n\nTV-G\n4\n\n\nTV-Y7\n4\n\n\nTV-Y\n3\n\n\n\n\ndtype: int64"
-  },
-  {
-    "objectID": "notebooks/module01-assessment.html#problem-group-2",
-    "href": "notebooks/module01-assessment.html#problem-group-2",
-    "title": "Introduction",
-    "section": "Problem Group 2",
-    "text": "Problem Group 2\nFor the questions in this group, you’ll work with the Cereal Dataset found at this url: https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\n\nQuestion 4\nAfter importing the dataset into a pandas data frame, determine the median amount of protein in cereal brands manufactured by Kelloggs. (mfr code “K”)\n\nimport pandas as pd\ncereal = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\")\n\ncereal.head()\n\n\n  \n    \n\n\n\n\n\n\nname\nmfr\ntype\ncalories\nprotein\nfat\nsodium\nfiber\ncarbo\nsugars\npotass\nvitamins\nshelf\nweight\ncups\nrating\n\n\n\n\n0\n100% Bran\nN\nC\n70\n4\n1\n130\n10.0\n5.0\n6\n280\n25\n3\n1.0\n0.33\n68.402973\n\n\n1\n100% Natural Bran\nQ\nC\n120\n3\n5\n15\n2.0\n8.0\n8\n135\n0\n3\n1.0\n1.00\n33.983679\n\n\n2\nAll-Bran\nK\nC\n70\n4\n1\n260\n9.0\n7.0\n5\n320\n25\n3\n1.0\n0.33\n59.425505\n\n\n3\nAll-Bran with Extra Fiber\nK\nC\n50\n4\n0\n140\n14.0\n8.0\n0\n330\n25\n3\n1.0\n0.50\n93.704912\n\n\n4\nAlmond Delight\nR\nC\n110\n2\n2\n200\n1.0\n14.0\n8\n-1\n25\n3\n1.0\n0.75\n34.384843\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\ncereal.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 77 entries, 0 to 76\nData columns (total 16 columns):\n #   Column    Non-Null Count  Dtype  \n---  ------    --------------  -----  \n 0   name      77 non-null     object \n 1   mfr       77 non-null     object \n 2   type      77 non-null     object \n 3   calories  77 non-null     int64  \n 4   protein   77 non-null     int64  \n 5   fat       77 non-null     int64  \n 6   sodium    77 non-null     int64  \n 7   fiber     77 non-null     float64\n 8   carbo     77 non-null     float64\n 9   sugars    77 non-null     int64  \n 10  potass    77 non-null     int64  \n 11  vitamins  77 non-null     int64  \n 12  shelf     77 non-null     int64  \n 13  weight    77 non-null     float64\n 14  cups      77 non-null     float64\n 15  rating    77 non-null     float64\ndtypes: float64(5), int64(8), object(3)\nmemory usage: 9.8+ KB\n\n\n\nKelloggs = cereal[cereal[\"mfr\"] == \"K\"]\n\nKelloggs[\"protein\"].median()\n\n3.0\n\n\n\n\nQuestion 5\nIn order to comply with new government regulations, all cereals must now come with a “Healthiness” rating. This rating is calculated based on this formula:\nhealthiness = (protein + fiber) / sugar\nCreate a new healthiness column populated with values based on the above formula.\nThen, determine the median healthiness value for only General Mills cereals (mfr = “G”), rounded to two decimal places.\n\ncereal[\"healthiness\"] = (cereal[\"protein\"] + cereal[\"fiber\"])/cereal[\"sugars\"]\n\nGM = cereal[cereal[\"mfr\"] == \"G\"]\n\nround(GM[\"healthiness\"].median(), 2)\n\n0.47"
-  },
-  {
-    "objectID": "notebooks/module01-assessment.html#problem-group-3",
-    "href": "notebooks/module01-assessment.html#problem-group-3",
-    "title": "Introduction",
-    "section": "Problem Group 3",
-    "text": "Problem Group 3\nFor the questions in this group, you’ll work with the Titanic Dataset found at this url: https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv\n\nQuestion 6\nAfter loading the dataset into a pandas DataFrame, create a new column called NameGroup that contains the first letter of the passenger’s surname in lower case.\nNote that in the dataset, passenger’s names are provided in the Name column and are listed as:\nSurname, Given names\nFor example, if a passenger’s Name is Braund, Mr. Owen Harris, the NameGroup column should contain the value b.\nThen count how many passengers have a NameGroup value of k.\n\nTitanic = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv\")\n\nTitanic.head()\n\n\n  \n    \n\n\n\n\n\n\nPassengerId\nSurvived\nPclass\nName\nSex\nAge\nSibSp\nParch\nTicket\nFare\nCabin\nEmbarked\n\n\n\n\n0\n1\nNo\n3\nBraund, Mr. Owen Harris\nmale\n22.0\n1\n0\nA/5 21171\n7.2500\nNaN\nS\n\n\n1\n2\nYes\n1\nCumings, Mrs. John Bradley (Florence Briggs Th...\nfemale\n38.0\n1\n0\nPC 17599\n71.2833\nC85\nC\n\n\n2\n3\nYes\n3\nHeikkinen, Miss. Laina\nfemale\n26.0\n0\n0\nSTON/O2. 3101282\n7.9250\nNaN\nS\n\n\n3\n4\nYes\n1\nFutrelle, Mrs. Jacques Heath (Lily May Peel)\nfemale\n35.0\n1\n0\n113803\n53.1000\nC123\nS\n\n\n4\n5\nNo\n3\nAllen, Mr. William Henry\nmale\n35.0\n0\n0\n373450\n8.0500\nNaN\nS\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\nTitanic[\"NameGroup\"] = Titanic[\"Name\"].str[0].str.lower()\nTitanic.head()\n\n\n  \n    \n\n\n\n\n\n\nPassengerId\nSurvived\nPclass\nName\nSex\nAge\nSibSp\nParch\nTicket\nFare\nCabin\nEmbarked\nNameGroup\n\n\n\n\n0\n1\nNo\n3\nBraund, Mr. Owen Harris\nmale\n22.0\n1\n0\nA/5 21171\n7.2500\nNaN\nS\nb\n\n\n1\n2\nYes\n1\nCumings, Mrs. John Bradley (Florence Briggs Th...\nfemale\n38.0\n1\n0\nPC 17599\n71.2833\nC85\nC\nc\n\n\n2\n3\nYes\n3\nHeikkinen, Miss. Laina\nfemale\n26.0\n0\n0\nSTON/O2. 3101282\n7.9250\nNaN\nS\nh\n\n\n3\n4\nYes\n1\nFutrelle, Mrs. Jacques Heath (Lily May Peel)\nfemale\n35.0\n1\n0\n113803\n53.1000\nC123\nS\nf\n\n\n4\n5\nNo\n3\nAllen, Mr. William Henry\nmale\n35.0\n0\n0\n373450\n8.0500\nNaN\nS\na\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\nKName = Titanic[Titanic[\"NameGroup\"] == \"k\"]\n\nKName.count()\n\n\n\n\n\n\n\n\n0\n\n\n\n\nPassengerId\n28\n\n\nSurvived\n28\n\n\nPclass\n28\n\n\nName\n28\n\n\nSex\n28\n\n\nAge\n16\n\n\nSibSp\n28\n\n\nParch\n28\n\n\nTicket\n28\n\n\nFare\n28\n\n\nCabin\n5\n\n\nEmbarked\n28\n\n\nNameGroup\n28\n\n\n\n\ndtype: int64"
-  },
-  {
-    "objectID": "Cleansing_Exploration/project5.html",
-    "href": "Cleansing_Exploration/project5.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "notebooks/Exploration_02.html",
+    "href": "notebooks/Exploration_02.html",
+    "title": "Data Exploration 02",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "You’re working as a data analyst at a cereal marketing company in New York.\nIn a strategy meeting, the marketing director tells you that in 2018, the US weight loss industry was worth over $72 Billion dollars, growing 4% compared to the previous year.\nIn contrast, sales of cold cereal fell 6% to $8.5 billion during the same time period.\nCereal executives have approached the marketing company asking how they can somehow tap into the weight loss market growth to boost the sales of their cereal brands.\nYour assignment is to analyze a dataset of nutritional information for major US cereals, and calculate some metrics that can be used by the marketing team."
   },
   {
-    "objectID": "Cleansing_Exploration/project4.html",
-    "href": "Cleansing_Exploration/project4.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "objectID": "notebooks/Exploration_02.html#part-1-import-pandas-and-load-the-data",
+    "href": "notebooks/Exploration_02.html#part-1-import-pandas-and-load-the-data",
+    "title": "Data Exploration 02",
+    "section": "Part 1: Import Pandas and load the data",
+    "text": "Part 1: Import Pandas and load the data\nRemember to import Pandas the conventional way. If you’ve forgotten how, you may want to review Data Exploration 01.\nThe dataset for this exploration is stored at the following url:\nhttps://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\nThere are lots of ways to load data into your workspace. The easiest way in this case is to ask Pandas to do it for you.\n\nInitial Data Analysis\nOnce you’ve loaded the data, it’s a good idea to poke around a little bit to find out what you’re dealing with.\nSome questions you might ask include:\n\nWhat does the data look like?\nWhat kind of data is in each column?\nDo any of the columns have missing values?\n\n\n# Part 1: Enter your code below to import Pandas according to the\n# conventional method. Then load the dataset into a Pandas dataframe.\n\n# Write any code needed to explore the data by seeing what the first few\n# rows look like. Then display a technical summary of the data to determine\n# the data types of each column, and which columns have missing data.\n\nimport pandas as pd\ncereal = pd.read_csv(\"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv\")\n\ncereal.head()\n\n\n  \n    \n\n\n\n\n\n\nname\nmfr\ntype\ncalories\nprotein\nfat\nsodium\nfiber\ncarbo\nsugars\npotass\nvitamins\nshelf\nweight\ncups\nrating\n\n\n\n\n0\n100% Bran\nN\nC\n70\n4\n1\n130\n10.0\n5.0\n6\n280\n25\n3\n1.0\n0.33\n68.402973\n\n\n1\n100% Natural Bran\nQ\nC\n120\n3\n5\n15\n2.0\n8.0\n8\n135\n0\n3\n1.0\n1.00\n33.983679\n\n\n2\nAll-Bran\nK\nC\n70\n4\n1\n260\n9.0\n7.0\n5\n320\n25\n3\n1.0\n0.33\n59.425505\n\n\n3\nAll-Bran with Extra Fiber\nK\nC\n50\n4\n0\n140\n14.0\n8.0\n0\n330\n25\n3\n1.0\n0.50\n93.704912\n\n\n4\nAlmond Delight\nR\nC\n110\n2\n2\n200\n1.0\n14.0\n8\n-1\n25\n3\n1.0\n0.75\n34.384843\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\ncereal.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 77 entries, 0 to 76\nData columns (total 16 columns):\n #   Column    Non-Null Count  Dtype  \n---  ------    --------------  -----  \n 0   name      77 non-null     object \n 1   mfr       77 non-null     object \n 2   type      77 non-null     object \n 3   calories  77 non-null     int64  \n 4   protein   77 non-null     int64  \n 5   fat       77 non-null     int64  \n 6   sodium    77 non-null     int64  \n 7   fiber     77 non-null     float64\n 8   carbo     77 non-null     float64\n 9   sugars    77 non-null     int64  \n 10  potass    77 non-null     int64  \n 11  vitamins  77 non-null     int64  \n 12  shelf     77 non-null     int64  \n 13  weight    77 non-null     float64\n 14  cups      77 non-null     float64\n 15  rating    77 non-null     float64\ndtypes: float64(5), int64(8), object(3)\nmemory usage: 9.8+ KB"
   },
   {
-    "objectID": "Cleansing_Exploration/project2.html",
-    "href": "Cleansing_Exploration/project2.html",
-    "title": "Client Report - [Insert Project Title]",
+    "objectID": "notebooks/Exploration_02.html#part-2-calculate-summary-statistics",
+    "href": "notebooks/Exploration_02.html#part-2-calculate-summary-statistics",
+    "title": "Data Exploration 02",
+    "section": "Part 2: Calculate Summary Statistics",
+    "text": "Part 2: Calculate Summary Statistics\nThe marketing team has determined that when choosing a cereal, consumers are most interested in calories, sugars, fiber, fat, and protein.\nFirst, let’s calcuate some summary statistics for these categories across the entire dataset. We’re particularly intrested in the mean, median, standard deviation, min, and max values.\nThere are multiple ways to accomplish this.\n\n# Part 2: Enter your code below to calculate summary statistics for the\n# calories, sugars, fiber, fat, and protein features.\n\ncereal[[\"calories\", \"sugars\", \"fiber\", \"fat\", \"protein\"]].describe()\n\n\n  \n    \n\n\n\n\n\n\ncalories\nsugars\nfiber\nfat\nprotein\n\n\n\n\ncount\n77.000000\n77.000000\n77.000000\n77.000000\n77.000000\n\n\nmean\n106.883117\n6.922078\n2.151948\n1.012987\n2.545455\n\n\nstd\n19.484119\n4.444885\n2.383364\n1.006473\n1.094790\n\n\nmin\n50.000000\n-1.000000\n0.000000\n0.000000\n1.000000\n\n\n25%\n100.000000\n3.000000\n1.000000\n0.000000\n2.000000\n\n\n50%\n110.000000\n7.000000\n2.000000\n1.000000\n3.000000\n\n\n75%\n110.000000\n11.000000\n3.000000\n2.000000\n3.000000\n\n\nmax\n160.000000\n15.000000\n14.000000\n5.000000\n6.000000"
+  },
+  {
+    "objectID": "notebooks/Exploration_02.html#part-3-transform-data",
+    "href": "notebooks/Exploration_02.html#part-3-transform-data",
+    "title": "Data Exploration 02",
+    "section": "Part 3: Transform Data",
+    "text": "Part 3: Transform Data\nTo make analysis easier, you want to convert the manufacturer codes used in the dataset to the manufacturer names.\nFirst, display the count of each manufacturer code value used in the dataset (found in the mfr column).\nThen, create a new column with the appropriate manufacturer name for each entry, using this mapping:\nA = American Home Food Products\nG = General Mills\nK = Kelloggs\nN = Nabisco\nP = Post\nQ = Quaker Oats\nR = Ralston Purina\n\nNote: While the tutorial linked above uses the replace function, using the map function instead can often be much faster and more memory efficient, especially for large datasets.\n\n\n# Display the count of values for the manufacturer code (\"mfr\" column), then\n# create a new column containing the appropriate manufacturer names.\ncereal[\"CompanyName\"] = cereal[\"mfr\"].map({\n    \"A\": \"American Home Food Products\",\n    \"G\": \"General Mills\",\n    \"K\": \"Kelloggs\",\n    \"N\": \"Nabisco\",\n    \"P\": \"Post\",\n    \"Q\": \"Quaker Oats\",\n    \"R\": \"Ralston Purina\"\n})\n\ncereal[\"CompanyName\"].value_counts()\n\n\n\n\n\n\n\n\ncount\n\n\nCompanyName\n\n\n\n\n\nKelloggs\n23\n\n\nGeneral Mills\n22\n\n\nPost\n9\n\n\nQuaker Oats\n8\n\n\nRalston Purina\n8\n\n\nNabisco\n6\n\n\nAmerican Home Food Products\n1\n\n\n\n\ndtype: int64"
+  },
+  {
+    "objectID": "notebooks/Exploration_02.html#part-4-visualization",
+    "href": "notebooks/Exploration_02.html#part-4-visualization",
+    "title": "Data Exploration 02",
+    "section": "Part 4: Visualization",
+    "text": "Part 4: Visualization\nLet’s do some more data exploration visually.\nImport your visualization library of choice and set any needed configuration options.\n\n# Import your visualization library\n\n\nSugar Distribution\nMarketing tells us that their surveys have revealed that sugar content is the number one concern of consumers when choosing cereal.\nThey would like to see the following visualizations:\n\nA histogram plot of the sugar content in all cereals.\nA scatter plot showing the relationship between sugar and calories.\nA box plot showing the distribution of sugar content by manufacturer.\n\n\n# Create the three visualzations requested by the the marketing team\nimport altair as alt\n\nbarchart = alt.Chart(cereal).mark_bar().encode(\n    alt.X(\"sugars\", bin=True, title=\"Sugar (Grams)\"),\n    alt.Y(\"count()\", title=\"Number of Cereal Brands\")\n).properties(\n    width=400,\n    height=400\n)\n\nbarchart\n\n\n\n\n\n\n\n\nscatterplot = alt.Chart(cereal).mark_circle(\n    size = 100\n).encode(\n    alt.X(\"calories\", title=\"Calories (KCal)\"),\n    alt.Y(\"sugars\", title=\"Sugar (Grams)\"),\n    tooltip=(\"name\")\n).properties(\n    width=400,\n    height=400\n)\n\nscatterplot\n\n\n\n\n\n\n\n\nboxplot = alt.Chart(cereal).mark_boxplot(\n    size=50\n).encode(\n    alt.X(\"CompanyName\", title=None),\n    alt.Y(\"sugars\", title=\"Sugar (Grams)\"),\n    tooltip=(\"name\")\n).properties(\n    width=400,\n    height=400\n)\n\nboxplot"
+  },
+  {
+    "objectID": "notebooks/Exploration_02.html#above-and-beyond",
+    "href": "notebooks/Exploration_02.html#above-and-beyond",
+    "title": "Data Exploration 02",
+    "section": "🌟 Above and Beyond 🌟",
+    "text": "🌟 Above and Beyond 🌟\nThe marketing team is pleased with what you’ve accomplished so far. They have a meeting with top cereal executives in the morning, and they’d like you to do as many of the following additional tasks as you have time for:\n\nWeight Watchers used to have an older points system that used this formula: (calories / 50) + (fat / 12) - (fiber / 5), but only the first 4 grams of fiber were included in the calculation. For comparison’s sake, create an additional column with the calculation for the old points system.\nMarketing really likes the boxplot of the sugar content for each cereal, they’d like similar plots for calories and fat, but using different color schemes for each chart."
+  },
+  {
+    "objectID": "notebooks/starter_bank.html",
+    "href": "notebooks/starter_bank.html",
+    "title": "Braedan Baird - Data Science Portfolio",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top"
+    "text": "import pandas as pd\n\ncampaign = pd.read_csv('https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv')\n\n\ncampaign.describe()\n\n\n  \n    \n\n\n\n\n\n\nage\ncampaign\npdays\nprevious\nemp.var.rate\ncons.price.idx\ncons.conf.idx\neuribor3m\nnr.employed\n\n\n\n\ncount\n37069.000000\n37069.000000\n37069.000000\n37069.000000\n37069.000000\n37069.000000\n37069.000000\n37069.000000\n37069.000000\n\n\nmean\n40.025493\n2.564407\n962.221803\n0.173730\n0.081526\n93.576551\n-40.494829\n3.621945\n5167.010650\n\n\nstd\n10.435288\n2.764084\n187.531477\n0.496159\n1.572287\n0.579339\n4.628895\n1.734496\n72.294476\n\n\nmin\n17.000000\n1.000000\n0.000000\n0.000000\n-3.400000\n92.201000\n-50.800000\n0.634000\n4963.600000\n\n\n25%\n32.000000\n1.000000\n999.000000\n0.000000\n-1.800000\n93.075000\n-42.700000\n1.344000\n5099.100000\n\n\n50%\n38.000000\n2.000000\n999.000000\n0.000000\n1.100000\n93.749000\n-41.800000\n4.857000\n5191.000000\n\n\n75%\n47.000000\n3.000000\n999.000000\n0.000000\n1.400000\n93.994000\n-36.400000\n4.961000\n5228.100000\n\n\nmax\n98.000000\n56.000000\n999.000000\n7.000000\n1.400000\n94.767000\n-26.900000\n5.045000\n5228.100000\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\ncampaign.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 37069 entries, 0 to 37068\nData columns (total 20 columns):\n #   Column          Non-Null Count  Dtype  \n---  ------          --------------  -----  \n 0   age             37069 non-null  int64  \n 1   job             37069 non-null  object \n 2   marital         37069 non-null  object \n 3   education       37069 non-null  object \n 4   default         37069 non-null  object \n 5   housing         37069 non-null  object \n 6   loan            37069 non-null  object \n 7   contact         37069 non-null  object \n 8   month           37069 non-null  object \n 9   day_of_week     37069 non-null  object \n 10  campaign        37069 non-null  int64  \n 11  pdays           37069 non-null  int64  \n 12  previous        37069 non-null  int64  \n 13  poutcome        37069 non-null  object \n 14  emp.var.rate    37069 non-null  float64\n 15  cons.price.idx  37069 non-null  float64\n 16  cons.conf.idx   37069 non-null  float64\n 17  euribor3m       37069 non-null  float64\n 18  nr.employed     37069 non-null  float64\n 19  y               37069 non-null  object \ndtypes: float64(5), int64(4), object(11)\nmemory usage: 5.7+ MB\n\n\n\ncampaign.head()\n\n\n  \n    \n\n\n\n\n\n\nage\njob\nmarital\neducation\ndefault\nhousing\nloan\ncontact\nmonth\nday_of_week\ncampaign\npdays\nprevious\npoutcome\nemp.var.rate\ncons.price.idx\ncons.conf.idx\neuribor3m\nnr.employed\ny\n\n\n\n\n0\n56\nhousemaid\nmarried\nbasic.4y\nno\nno\nno\ntelephone\nmay\nmon\n1\n999\n0\nnonexistent\n1.1\n93.994\n-36.4\n4.857\n5191.0\nno\n\n\n1\n57\nservices\nmarried\nhigh.school\nunknown\nno\nno\ntelephone\nmay\nmon\n1\n999\n0\nnonexistent\n1.1\n93.994\n-36.4\n4.857\n5191.0\nno\n\n\n2\n37\nservices\nmarried\nhigh.school\nno\nyes\nno\ntelephone\nmay\nmon\n1\n999\n0\nnonexistent\n1.1\n93.994\n-36.4\n4.857\n5191.0\nno\n\n\n3\n40\nadmin.\nmarried\nbasic.6y\nno\nno\nno\ntelephone\nmay\nmon\n1\n999\n0\nnonexistent\n1.1\n93.994\n-36.4\n4.857\n5191.0\nno\n\n\n4\n56\nservices\nmarried\nhigh.school\nno\nno\nyes\ntelephone\nmay\nmon\n1\n999\n0\nnonexistent\n1.1\n93.994\n-36.4\n4.857\n5191.0\nno\n\n\n\n\n\n    \n\n  \n    \n\n  \n    \n  \n    \n\n  \n\n    \n  \n\n\n\n  \n\n\n    \n        \n    \n\n  \n\n\n\n  \n\n\n    \n  \n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ml.html",
+    "href": "ml.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "ml.html#title-2-header",
+    "href": "ml.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics",
+    "crumbs": [
+      "Machine Learning"
+    ]
   }
 ]

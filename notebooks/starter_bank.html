@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>module01-assessment – Braedan Baird - Data Science Portfolio</title>
+<title>starter_bank – Braedan Baird - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -172,32 +172,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
-  <li><a href="#problem-group-1" id="toc-problem-group-1" class="nav-link" data-scroll-target="#problem-group-1">Problem Group 1</a>
-  <ul class="collapse">
-  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
-  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
-  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
-  </ul></li>
-  <li><a href="#problem-group-2" id="toc-problem-group-2" class="nav-link" data-scroll-target="#problem-group-2">Problem Group 2</a>
-  <ul class="collapse">
-  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
-  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
-  </ul></li>
-  <li><a href="#problem-group-3" id="toc-problem-group-3" class="nav-link" data-scroll-target="#problem-group-3">Problem Group 3</a>
-  <ul class="collapse">
-  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -205,151 +181,378 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p><a href="https://colab.research.google.com/github/BBaird77/BBaird77.github.io/blob/main/notebooks/module01-assessment.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>This assignment will test how well you’re able to perform various data science-related tasks.</p>
-<p>Each Problem Group below will center around a particular dataset that you have worked with before.</p>
-<p>To ensure you receive full credit for a question, make sure you demonstrate the appropriate pandas, altair, or other commands as requested in the provided code blocks.</p>
-<p>You may find that some questions require multiple steps to fully answer. Others require some mental arithmetic in addition to pandas commands. Use your best judgment.</p>
-<section id="submission" class="level2">
-<h2 class="anchored" data-anchor-id="submission">Submission</h2>
-<p>Each problem group asks a series of questions. This assignment consists of two submissions:</p>
-<ol type="1">
-<li><p>After completing the questions below, open the Module 01 Assessment Quiz in Canvas and enter your answers to these questions there.</p></li>
-<li><p>After completing and submitting the quiz, save this Colab notebook as a GitHub Gist (You’ll need to create a GitHub account for this), by selecting <code>Save a copy as a GitHub Gist</code> from the <code>File</code> menu above.</p>
-<p>In Canvas, open the Module 01 Assessment GitHub Gist assignment and paste the GitHub Gist URL for this notebook. Then submit that assignment.</p></li>
-</ol>
-</section>
-<section id="problem-group-1" class="level2">
-<h2 class="anchored" data-anchor-id="problem-group-1">Problem Group 1</h2>
-<p>For the questions in this group, you’ll work with the Netflix Movies Dataset found at this url: <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv">https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv</a></p>
-<section id="question-1" class="level3">
-<h3 class="anchored" data-anchor-id="question-1">Question 1</h3>
-<p>Load the dataset into a Pandas data frame and determine what data type is used to store the <code>release_year</code> feature.</p>
-<div id="cell-4" class="cell" data-execution_count="1">
+<div id="cell-0" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Netflix <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>campaign <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-5" class="cell" data-outputid="300d9701-15fd-45b4-bce6-fb03e3d70cc6" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Netflix.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="cell-1" class="cell" data-outputid="8220fd14-fe6d-443e-edc1-8ddcdfdba9cc" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>campaign.describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+
+  <div id="df-100f4725-f849-4060-8da2-0e8cab3aeb2a" class="colab-df-container">
+    <div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">age</th>
+<th data-quarto-table-cell-role="th">campaign</th>
+<th data-quarto-table-cell-role="th">pdays</th>
+<th data-quarto-table-cell-role="th">previous</th>
+<th data-quarto-table-cell-role="th">emp.var.rate</th>
+<th data-quarto-table-cell-role="th">cons.price.idx</th>
+<th data-quarto-table-cell-role="th">cons.conf.idx</th>
+<th data-quarto-table-cell-role="th">euribor3m</th>
+<th data-quarto-table-cell-role="th">nr.employed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">count</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+<td>37069.000000</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">mean</td>
+<td>40.025493</td>
+<td>2.564407</td>
+<td>962.221803</td>
+<td>0.173730</td>
+<td>0.081526</td>
+<td>93.576551</td>
+<td>-40.494829</td>
+<td>3.621945</td>
+<td>5167.010650</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">std</td>
+<td>10.435288</td>
+<td>2.764084</td>
+<td>187.531477</td>
+<td>0.496159</td>
+<td>1.572287</td>
+<td>0.579339</td>
+<td>4.628895</td>
+<td>1.734496</td>
+<td>72.294476</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">min</td>
+<td>17.000000</td>
+<td>1.000000</td>
+<td>0.000000</td>
+<td>0.000000</td>
+<td>-3.400000</td>
+<td>92.201000</td>
+<td>-50.800000</td>
+<td>0.634000</td>
+<td>4963.600000</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">25%</td>
+<td>32.000000</td>
+<td>1.000000</td>
+<td>999.000000</td>
+<td>0.000000</td>
+<td>-1.800000</td>
+<td>93.075000</td>
+<td>-42.700000</td>
+<td>1.344000</td>
+<td>5099.100000</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">50%</td>
+<td>38.000000</td>
+<td>2.000000</td>
+<td>999.000000</td>
+<td>0.000000</td>
+<td>1.100000</td>
+<td>93.749000</td>
+<td>-41.800000</td>
+<td>4.857000</td>
+<td>5191.000000</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">75%</td>
+<td>47.000000</td>
+<td>3.000000</td>
+<td>999.000000</td>
+<td>0.000000</td>
+<td>1.400000</td>
+<td>93.994000</td>
+<td>-36.400000</td>
+<td>4.961000</td>
+<td>5228.100000</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">max</td>
+<td>98.000000</td>
+<td>56.000000</td>
+<td>999.000000</td>
+<td>7.000000</td>
+<td>1.400000</td>
+<td>94.767000</td>
+<td>-26.900000</td>
+<td>5.045000</td>
+<td>5228.100000</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-100f4725-f849-4060-8da2-0e8cab3aeb2a')" title="Convert this dataframe to an interactive table." style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-100f4725-f849-4060-8da2-0e8cab3aeb2a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-100f4725-f849-4060-8da2-0e8cab3aeb2a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-5a187c02-23eb-4aa3-ade7-198bf4c6b8cf">
+  <button class="colab-df-quickchart" onclick="quickchart('df-5a187c02-23eb-4aa3-ade7-198bf4c6b8cf')" title="Suggest charts" style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-5a187c02-23eb-4aa3-ade7-198bf4c6b8cf button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+<div id="cell-2" class="cell" data-outputid="ae401901-eb87-474c-dd0c-3dbeaa180f18" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>campaign.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
-RangeIndex: 6234 entries, 0 to 6233
-Data columns (total 12 columns):
- #   Column        Non-Null Count  Dtype 
----  ------        --------------  ----- 
- 0   show_id       6234 non-null   int64 
- 1   type          6234 non-null   object
- 2   title         6234 non-null   object
- 3   director      4265 non-null   object
- 4   cast          5664 non-null   object
- 5   country       5758 non-null   object
- 6   date_added    6223 non-null   object
- 7   release_year  6234 non-null   int64 
- 8   rating        6224 non-null   object
- 9   duration      6234 non-null   object
- 10  listed_in     6234 non-null   object
- 11  description   6234 non-null   object
-dtypes: int64(2), object(10)
-memory usage: 584.6+ KB</code></pre>
+RangeIndex: 37069 entries, 0 to 37068
+Data columns (total 20 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   age             37069 non-null  int64  
+ 1   job             37069 non-null  object 
+ 2   marital         37069 non-null  object 
+ 3   education       37069 non-null  object 
+ 4   default         37069 non-null  object 
+ 5   housing         37069 non-null  object 
+ 6   loan            37069 non-null  object 
+ 7   contact         37069 non-null  object 
+ 8   month           37069 non-null  object 
+ 9   day_of_week     37069 non-null  object 
+ 10  campaign        37069 non-null  int64  
+ 11  pdays           37069 non-null  int64  
+ 12  previous        37069 non-null  int64  
+ 13  poutcome        37069 non-null  object 
+ 14  emp.var.rate    37069 non-null  float64
+ 15  cons.price.idx  37069 non-null  float64
+ 16  cons.conf.idx   37069 non-null  float64
+ 17  euribor3m       37069 non-null  float64
+ 18  nr.employed     37069 non-null  float64
+ 19  y               37069 non-null  object 
+dtypes: float64(5), int64(4), object(11)
+memory usage: 5.7+ MB</code></pre>
 </div>
 </div>
-</section>
-<section id="question-2" class="level3">
-<h3 class="anchored" data-anchor-id="question-2">Question 2</h3>
-<p>Filter your dataset so it contains only <code>TV Shows</code>. How many of those TV Shows were rated <code>TV-Y7</code>?</p>
-</section>
-<section id="question-3" class="level3">
-<h3 class="anchored" data-anchor-id="question-3">Question 3</h3>
-<p>Further filter your dataset so it only contains TV Shows released between the years 2000 and 2009 inclusive. How many of <em>those</em> shows were rated <code>TV-Y7</code>?</p>
-<div id="cell-9" class="cell" data-outputid="cf5bb92b-5c2d-44dc-a163-ff7a35392128" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>TV <span class="op">=</span> Netflix[Netflix[<span class="st">"type"</span>] <span class="op">==</span> <span class="st">"TV Show"</span>]</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(TV)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-<pre><code>1969</code></pre>
-</div>
-</div>
-<div id="cell-10" class="cell" data-outputid="f098724d-9415-4922-ca1f-44f2de68725b" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>TV[<span class="st">"rating"</span>].value_counts()</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>TV2 <span class="op">=</span> TV[(Netflix[<span class="st">"release_year"</span>] <span class="op">&gt;=</span> <span class="dv">2000</span>) <span class="op">&amp;</span> (Netflix[<span class="st">"release_year"</span>] <span class="op">&lt;=</span> <span class="dv">2009</span>)]</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>TV2[<span class="st">"rating"</span>].value_counts()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>UserWarning: Boolean Series key will be reindexed to match DataFrame index.
-  TV2 = TV[(Netflix["release_year"] &gt;= 2000) &amp; (Netflix["release_year"] &lt;= 2009)]</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="14">
-<div>
+<div id="cell-3" class="cell" data-outputid="11e1e63b-b18a-42b1-b377-4cbb5cf8654c" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>campaign.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
 
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">count</th>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th">rating</th>
-<th data-quarto-table-cell-role="th"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">TV-14</td>
-<td>52</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">TV-PG</td>
-<td>22</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">TV-MA</td>
-<td>13</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">TV-Y7-FV</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">NR</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">TV-G</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">TV-Y7</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">TV-Y</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-
-</div><br><label><b>dtype:</b> int64</label>
-</div>
-</div>
-</section>
-</section>
-<section id="problem-group-2" class="level2">
-<h2 class="anchored" data-anchor-id="problem-group-2">Problem Group 2</h2>
-<p>For the questions in this group, you’ll work with the Cereal Dataset found at this url: <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv">https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv</a></p>
-<section id="question-4" class="level3">
-<h3 class="anchored" data-anchor-id="question-4">Question 4</h3>
-<p>After importing the dataset into a pandas data frame, determine the median amount of <code>protein</code> in cereal brands manufactured by Kelloggs. (<code>mfr</code> code “K”)</p>
-<div id="cell-13" class="cell" data-outputid="43554bf3-1454-4b8c-8d8e-4a27cd8e18e7" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>cereal <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv"</span>)</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>cereal.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="15">
-
-  <div id="df-ef05864d-d288-47b2-b370-6b3715291b2f" class="colab-df-container">
+  <div id="df-4969627f-e936-4554-9ba3-9536f45fd4b4" class="colab-df-container">
     <div>
 
 
@@ -357,119 +560,143 @@ memory usage: 584.6+ KB</code></pre>
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">name</th>
-<th data-quarto-table-cell-role="th">mfr</th>
-<th data-quarto-table-cell-role="th">type</th>
-<th data-quarto-table-cell-role="th">calories</th>
-<th data-quarto-table-cell-role="th">protein</th>
-<th data-quarto-table-cell-role="th">fat</th>
-<th data-quarto-table-cell-role="th">sodium</th>
-<th data-quarto-table-cell-role="th">fiber</th>
-<th data-quarto-table-cell-role="th">carbo</th>
-<th data-quarto-table-cell-role="th">sugars</th>
-<th data-quarto-table-cell-role="th">potass</th>
-<th data-quarto-table-cell-role="th">vitamins</th>
-<th data-quarto-table-cell-role="th">shelf</th>
-<th data-quarto-table-cell-role="th">weight</th>
-<th data-quarto-table-cell-role="th">cups</th>
-<th data-quarto-table-cell-role="th">rating</th>
+<th data-quarto-table-cell-role="th">age</th>
+<th data-quarto-table-cell-role="th">job</th>
+<th data-quarto-table-cell-role="th">marital</th>
+<th data-quarto-table-cell-role="th">education</th>
+<th data-quarto-table-cell-role="th">default</th>
+<th data-quarto-table-cell-role="th">housing</th>
+<th data-quarto-table-cell-role="th">loan</th>
+<th data-quarto-table-cell-role="th">contact</th>
+<th data-quarto-table-cell-role="th">month</th>
+<th data-quarto-table-cell-role="th">day_of_week</th>
+<th data-quarto-table-cell-role="th">campaign</th>
+<th data-quarto-table-cell-role="th">pdays</th>
+<th data-quarto-table-cell-role="th">previous</th>
+<th data-quarto-table-cell-role="th">poutcome</th>
+<th data-quarto-table-cell-role="th">emp.var.rate</th>
+<th data-quarto-table-cell-role="th">cons.price.idx</th>
+<th data-quarto-table-cell-role="th">cons.conf.idx</th>
+<th data-quarto-table-cell-role="th">euribor3m</th>
+<th data-quarto-table-cell-role="th">nr.employed</th>
+<th data-quarto-table-cell-role="th">y</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">0</td>
-<td>100% Bran</td>
-<td>N</td>
-<td>C</td>
-<td>70</td>
-<td>4</td>
+<td>56</td>
+<td>housemaid</td>
+<td>married</td>
+<td>basic.4y</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>telephone</td>
+<td>may</td>
+<td>mon</td>
 <td>1</td>
-<td>130</td>
-<td>10.0</td>
-<td>5.0</td>
-<td>6</td>
-<td>280</td>
-<td>25</td>
-<td>3</td>
-<td>1.0</td>
-<td>0.33</td>
-<td>68.402973</td>
+<td>999</td>
+<td>0</td>
+<td>nonexistent</td>
+<td>1.1</td>
+<td>93.994</td>
+<td>-36.4</td>
+<td>4.857</td>
+<td>5191.0</td>
+<td>no</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">1</td>
-<td>100% Natural Bran</td>
-<td>Q</td>
-<td>C</td>
-<td>120</td>
-<td>3</td>
-<td>5</td>
-<td>15</td>
-<td>2.0</td>
-<td>8.0</td>
-<td>8</td>
-<td>135</td>
+<td>57</td>
+<td>services</td>
+<td>married</td>
+<td>high.school</td>
+<td>unknown</td>
+<td>no</td>
+<td>no</td>
+<td>telephone</td>
+<td>may</td>
+<td>mon</td>
+<td>1</td>
+<td>999</td>
 <td>0</td>
-<td>3</td>
-<td>1.0</td>
-<td>1.00</td>
-<td>33.983679</td>
+<td>nonexistent</td>
+<td>1.1</td>
+<td>93.994</td>
+<td>-36.4</td>
+<td>4.857</td>
+<td>5191.0</td>
+<td>no</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">2</td>
-<td>All-Bran</td>
-<td>K</td>
-<td>C</td>
-<td>70</td>
-<td>4</td>
+<td>37</td>
+<td>services</td>
+<td>married</td>
+<td>high.school</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+<td>telephone</td>
+<td>may</td>
+<td>mon</td>
 <td>1</td>
-<td>260</td>
-<td>9.0</td>
-<td>7.0</td>
-<td>5</td>
-<td>320</td>
-<td>25</td>
-<td>3</td>
-<td>1.0</td>
-<td>0.33</td>
-<td>59.425505</td>
+<td>999</td>
+<td>0</td>
+<td>nonexistent</td>
+<td>1.1</td>
+<td>93.994</td>
+<td>-36.4</td>
+<td>4.857</td>
+<td>5191.0</td>
+<td>no</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">3</td>
-<td>All-Bran with Extra Fiber</td>
-<td>K</td>
-<td>C</td>
-<td>50</td>
-<td>4</td>
+<td>40</td>
+<td>admin.</td>
+<td>married</td>
+<td>basic.6y</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>telephone</td>
+<td>may</td>
+<td>mon</td>
+<td>1</td>
+<td>999</td>
 <td>0</td>
-<td>140</td>
-<td>14.0</td>
-<td>8.0</td>
-<td>0</td>
-<td>330</td>
-<td>25</td>
-<td>3</td>
-<td>1.0</td>
-<td>0.50</td>
-<td>93.704912</td>
+<td>nonexistent</td>
+<td>1.1</td>
+<td>93.994</td>
+<td>-36.4</td>
+<td>4.857</td>
+<td>5191.0</td>
+<td>no</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">4</td>
-<td>Almond Delight</td>
-<td>R</td>
-<td>C</td>
-<td>110</td>
-<td>2</td>
-<td>2</td>
-<td>200</td>
-<td>1.0</td>
-<td>14.0</td>
-<td>8</td>
-<td>-1</td>
-<td>25</td>
-<td>3</td>
-<td>1.0</td>
-<td>0.75</td>
-<td>34.384843</td>
+<td>56</td>
+<td>services</td>
+<td>married</td>
+<td>high.school</td>
+<td>no</td>
+<td>no</td>
+<td>yes</td>
+<td>telephone</td>
+<td>may</td>
+<td>mon</td>
+<td>1</td>
+<td>999</td>
+<td>0</td>
+<td>nonexistent</td>
+<td>1.1</td>
+<td>93.994</td>
+<td>-36.4</td>
+<td>4.857</td>
+<td>5191.0</td>
+<td>no</td>
 </tr>
 </tbody>
 </table>
@@ -478,7 +705,7 @@ memory usage: 584.6+ KB</code></pre>
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-ef05864d-d288-47b2-b370-6b3715291b2f')" title="Convert this dataframe to an interactive table." style="display:none;">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-4969627f-e936-4554-9ba3-9536f45fd4b4')" title="Convert this dataframe to an interactive table." style="display:none;">
 
   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
     <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
@@ -528,12 +755,12 @@ memory usage: 584.6+ KB</code></pre>
 
     <script>
       const buttonEl =
-        document.querySelector('#df-ef05864d-d288-47b2-b370-6b3715291b2f button.colab-df-convert');
+        document.querySelector('#df-4969627f-e936-4554-9ba3-9536f45fd4b4 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-ef05864d-d288-47b2-b370-6b3715291b2f');
+        const element = document.querySelector('#df-4969627f-e936-4554-9ba3-9536f45fd4b4');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -553,8 +780,8 @@ memory usage: 584.6+ KB</code></pre>
   </div>
 
 
-<div id="df-4d52d690-ae8c-4f62-b2a1-a486b1f42d4b">
-  <button class="colab-df-quickchart" onclick="quickchart('df-4d52d690-ae8c-4f62-b2a1-a486b1f42d4b')" title="Suggest charts" style="display:none;">
+<div id="df-394f2654-213e-4715-b79a-590ada6f883b">
+  <button class="colab-df-quickchart" onclick="quickchart('df-394f2654-213e-4715-b79a-590ada6f883b')" title="Suggest charts" style="display:none;">
 
 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
     <g>
@@ -670,7 +897,7 @@ memory usage: 584.6+ KB</code></pre>
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-4d52d690-ae8c-4f62-b2a1-a486b1f42d4b button');
+        document.querySelector('#df-394f2654-213e-4715-b79a-590ada6f883b button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -681,783 +908,8 @@ memory usage: 584.6+ KB</code></pre>
   </div>
 </div>
 </div>
-<div id="cell-14" class="cell" data-outputid="60976b48-dfb1-4ac0-cc86-68a69e232b7f" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>cereal.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
-RangeIndex: 77 entries, 0 to 76
-Data columns (total 16 columns):
- #   Column    Non-Null Count  Dtype  
----  ------    --------------  -----  
- 0   name      77 non-null     object 
- 1   mfr       77 non-null     object 
- 2   type      77 non-null     object 
- 3   calories  77 non-null     int64  
- 4   protein   77 non-null     int64  
- 5   fat       77 non-null     int64  
- 6   sodium    77 non-null     int64  
- 7   fiber     77 non-null     float64
- 8   carbo     77 non-null     float64
- 9   sugars    77 non-null     int64  
- 10  potass    77 non-null     int64  
- 11  vitamins  77 non-null     int64  
- 12  shelf     77 non-null     int64  
- 13  weight    77 non-null     float64
- 14  cups      77 non-null     float64
- 15  rating    77 non-null     float64
-dtypes: float64(5), int64(8), object(3)
-memory usage: 9.8+ KB</code></pre>
-</div>
-</div>
-<div id="cell-15" class="cell" data-outputid="ccd04fd9-15be-408f-a76f-7524c6695512" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>Kelloggs <span class="op">=</span> cereal[cereal[<span class="st">"mfr"</span>] <span class="op">==</span> <span class="st">"K"</span>]</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>Kelloggs[<span class="st">"protein"</span>].median()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="21">
-<pre><code>3.0</code></pre>
-</div>
-</div>
-</section>
-<section id="question-5" class="level3">
-<h3 class="anchored" data-anchor-id="question-5">Question 5</h3>
-<p>In order to comply with new government regulations, all cereals must now come with a “Healthiness” rating. This rating is calculated based on this formula:</p>
-<pre><code>healthiness = (protein + fiber) / sugar</code></pre>
-<p>Create a new <code>healthiness</code> column populated with values based on the above formula.</p>
-<p>Then, determine the median healthiness value for only General Mills cereals (<code>mfr</code> = “G”), rounded to two decimal places.</p>
-<div id="cell-17" class="cell" data-outputid="0c1202e0-25fd-46b5-c879-267b317285e6" data-execution_count="26">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>cereal[<span class="st">"healthiness"</span>] <span class="op">=</span> (cereal[<span class="st">"protein"</span>] <span class="op">+</span> cereal[<span class="st">"fiber"</span>])<span class="op">/</span>cereal[<span class="st">"sugars"</span>]</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>GM <span class="op">=</span> cereal[cereal[<span class="st">"mfr"</span>] <span class="op">==</span> <span class="st">"G"</span>]</span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">round</span>(GM[<span class="st">"healthiness"</span>].median(), <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="26">
-<pre><code>0.47</code></pre>
-</div>
-</div>
-</section>
-</section>
-<section id="problem-group-3" class="level2">
-<h2 class="anchored" data-anchor-id="problem-group-3">Problem Group 3</h2>
-<p>For the questions in this group, you’ll work with the Titanic Dataset found at this url: <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv">https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv</a></p>
-<section id="question-6" class="level3">
-<h3 class="anchored" data-anchor-id="question-6">Question 6</h3>
-<p>After loading the dataset into a pandas DataFrame, create a new column called <code>NameGroup</code> that contains the first letter of the passenger’s surname in lower case.</p>
-<p>Note that in the dataset, passenger’s names are provided in the <code>Name</code> column and are listed as:</p>
-<pre><code>Surname, Given names</code></pre>
-<p>For example, if a passenger’s <code>Name</code> is <code>Braund, Mr. Owen Harris</code>, the <code>NameGroup</code> column should contain the value <code>b</code>.</p>
-<p>Then count how many passengers have a <code>NameGroup</code> value of <code>k</code>.</p>
-<div id="cell-20" class="cell" data-outputid="347b29b1-d212-4117-8bd1-99665f82a8d7" data-execution_count="27">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>Titanic <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv"</span>)</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>Titanic.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="27">
-
-  <div id="df-4ade3fa4-43a8-4fed-b183-3476515fa42a" class="colab-df-container">
-    <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">PassengerId</th>
-<th data-quarto-table-cell-role="th">Survived</th>
-<th data-quarto-table-cell-role="th">Pclass</th>
-<th data-quarto-table-cell-role="th">Name</th>
-<th data-quarto-table-cell-role="th">Sex</th>
-<th data-quarto-table-cell-role="th">Age</th>
-<th data-quarto-table-cell-role="th">SibSp</th>
-<th data-quarto-table-cell-role="th">Parch</th>
-<th data-quarto-table-cell-role="th">Ticket</th>
-<th data-quarto-table-cell-role="th">Fare</th>
-<th data-quarto-table-cell-role="th">Cabin</th>
-<th data-quarto-table-cell-role="th">Embarked</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>1</td>
-<td>No</td>
-<td>3</td>
-<td>Braund, Mr. Owen Harris</td>
-<td>male</td>
-<td>22.0</td>
-<td>1</td>
-<td>0</td>
-<td>A/5 21171</td>
-<td>7.2500</td>
-<td>NaN</td>
-<td>S</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>2</td>
-<td>Yes</td>
-<td>1</td>
-<td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
-<td>female</td>
-<td>38.0</td>
-<td>1</td>
-<td>0</td>
-<td>PC 17599</td>
-<td>71.2833</td>
-<td>C85</td>
-<td>C</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>3</td>
-<td>Yes</td>
-<td>3</td>
-<td>Heikkinen, Miss. Laina</td>
-<td>female</td>
-<td>26.0</td>
-<td>0</td>
-<td>0</td>
-<td>STON/O2. 3101282</td>
-<td>7.9250</td>
-<td>NaN</td>
-<td>S</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>4</td>
-<td>Yes</td>
-<td>1</td>
-<td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
-<td>female</td>
-<td>35.0</td>
-<td>1</td>
-<td>0</td>
-<td>113803</td>
-<td>53.1000</td>
-<td>C123</td>
-<td>S</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>5</td>
-<td>No</td>
-<td>3</td>
-<td>Allen, Mr. William Henry</td>
-<td>male</td>
-<td>35.0</td>
-<td>0</td>
-<td>0</td>
-<td>373450</td>
-<td>8.0500</td>
-<td>NaN</td>
-<td>S</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-4ade3fa4-43a8-4fed-b183-3476515fa42a')" title="Convert this dataframe to an interactive table." style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-4ade3fa4-43a8-4fed-b183-3476515fa42a button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-4ade3fa4-43a8-4fed-b183-3476515fa42a');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-<div id="df-92eec162-2970-496a-ad38-a19fca87f628">
-  <button class="colab-df-quickchart" onclick="quickchart('df-92eec162-2970-496a-ad38-a19fca87f628')" title="Suggest charts" style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
-    </g>
-</svg>
-  </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-  <script>
-    async function quickchart(key) {
-      const quickchartButtonEl =
-        document.querySelector('#' + key + ' button');
-      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-      quickchartButtonEl.classList.add('colab-df-spinner');
-      try {
-        const charts = await google.colab.kernel.invokeFunction(
-            'suggestCharts', [key], {});
-      } catch (error) {
-        console.error('Error during call to suggestCharts:', error);
-      }
-      quickchartButtonEl.classList.remove('colab-df-spinner');
-      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-    }
-    (() => {
-      let quickchartButtonEl =
-        document.querySelector('#df-92eec162-2970-496a-ad38-a19fca87f628 button');
-      quickchartButtonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-    })();
-  </script>
-</div>
-
-    </div>
-  </div>
-</div>
-</div>
-<div id="cell-21" class="cell" data-outputid="e5bc0dd2-ee59-4842-e560-c5403c3569c9" data-execution_count="32">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>Titanic[<span class="st">"NameGroup"</span>] <span class="op">=</span> Titanic[<span class="st">"Name"</span>].<span class="bu">str</span>[<span class="dv">0</span>].<span class="bu">str</span>.lower()</span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>Titanic.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="32">
-
-  <div id="df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85" class="colab-df-container">
-    <div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">PassengerId</th>
-<th data-quarto-table-cell-role="th">Survived</th>
-<th data-quarto-table-cell-role="th">Pclass</th>
-<th data-quarto-table-cell-role="th">Name</th>
-<th data-quarto-table-cell-role="th">Sex</th>
-<th data-quarto-table-cell-role="th">Age</th>
-<th data-quarto-table-cell-role="th">SibSp</th>
-<th data-quarto-table-cell-role="th">Parch</th>
-<th data-quarto-table-cell-role="th">Ticket</th>
-<th data-quarto-table-cell-role="th">Fare</th>
-<th data-quarto-table-cell-role="th">Cabin</th>
-<th data-quarto-table-cell-role="th">Embarked</th>
-<th data-quarto-table-cell-role="th">NameGroup</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>1</td>
-<td>No</td>
-<td>3</td>
-<td>Braund, Mr. Owen Harris</td>
-<td>male</td>
-<td>22.0</td>
-<td>1</td>
-<td>0</td>
-<td>A/5 21171</td>
-<td>7.2500</td>
-<td>NaN</td>
-<td>S</td>
-<td>b</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>2</td>
-<td>Yes</td>
-<td>1</td>
-<td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
-<td>female</td>
-<td>38.0</td>
-<td>1</td>
-<td>0</td>
-<td>PC 17599</td>
-<td>71.2833</td>
-<td>C85</td>
-<td>C</td>
-<td>c</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>3</td>
-<td>Yes</td>
-<td>3</td>
-<td>Heikkinen, Miss. Laina</td>
-<td>female</td>
-<td>26.0</td>
-<td>0</td>
-<td>0</td>
-<td>STON/O2. 3101282</td>
-<td>7.9250</td>
-<td>NaN</td>
-<td>S</td>
-<td>h</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>4</td>
-<td>Yes</td>
-<td>1</td>
-<td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
-<td>female</td>
-<td>35.0</td>
-<td>1</td>
-<td>0</td>
-<td>113803</td>
-<td>53.1000</td>
-<td>C123</td>
-<td>S</td>
-<td>f</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>5</td>
-<td>No</td>
-<td>3</td>
-<td>Allen, Mr. William Henry</td>
-<td>male</td>
-<td>35.0</td>
-<td>0</td>
-<td>0</td>
-<td>373450</td>
-<td>8.0500</td>
-<td>NaN</td>
-<td>S</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85')" title="Convert this dataframe to an interactive table." style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-3f5f84bd-fc99-4ecc-abf0-76ec5d4f0f85');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-<div id="df-900ed72a-08b5-4fa7-9a9d-01d7d427eae7">
-  <button class="colab-df-quickchart" onclick="quickchart('df-900ed72a-08b5-4fa7-9a9d-01d7d427eae7')" title="Suggest charts" style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
-    </g>
-</svg>
-  </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-  <script>
-    async function quickchart(key) {
-      const quickchartButtonEl =
-        document.querySelector('#' + key + ' button');
-      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-      quickchartButtonEl.classList.add('colab-df-spinner');
-      try {
-        const charts = await google.colab.kernel.invokeFunction(
-            'suggestCharts', [key], {});
-      } catch (error) {
-        console.error('Error during call to suggestCharts:', error);
-      }
-      quickchartButtonEl.classList.remove('colab-df-spinner');
-      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-    }
-    (() => {
-      let quickchartButtonEl =
-        document.querySelector('#df-900ed72a-08b5-4fa7-9a9d-01d7d427eae7 button');
-      quickchartButtonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-    })();
-  </script>
-</div>
-
-    </div>
-  </div>
-</div>
-</div>
-<div id="cell-22" class="cell" data-outputid="f1e55cb2-e703-4a71-ee83-7e577cb03b5f" data-execution_count="36">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>KName <span class="op">=</span> Titanic[Titanic[<span class="st">"NameGroup"</span>] <span class="op">==</span> <span class="st">"k"</span>]</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>KName.count()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="36">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">0</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">PassengerId</td>
-<td>28</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Survived</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Pclass</td>
-<td>28</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Name</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Sex</td>
-<td>28</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Age</td>
-<td>16</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">SibSp</td>
-<td>28</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Parch</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Ticket</td>
-<td>28</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Fare</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Cabin</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Embarked</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">NameGroup</td>
-<td>28</td>
-</tr>
-</tbody>
-</table>
-
-</div><br><label><b>dtype:</b> int64</label>
-</div>
-</div>
-
-
-</section>
-</section>
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
